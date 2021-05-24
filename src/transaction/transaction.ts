@@ -12,6 +12,16 @@ export default class transaction{
     PublicKey:string;
     Signature:string;
 
+    /**
+     * it will generate new transaction payload based on payload provided
+     * @param  {number} Version Transactions version
+     * @param  {Buffer} Stamp   last block hash
+     * @param  {number} Sequence   accounts transaction sequence
+     * @param  {number} Fee fee willing to pay for this transaction to go through
+     * @param  {payloadType} Type   type of the transaction
+     * @param  {ITransactionPayload} Payload    specific payload of transaction based on type of transaction
+     * @param  {string} Memo    memo for the transaction
+     */
     constructor(Version:number,
         Stamp:Buffer,
         Sequence:number,
@@ -27,6 +37,11 @@ export default class transaction{
             this.Payload=Payload;
             this.Memo=Memo;
     }
+    
+    /**
+     * @param  {bool} sign=false should it include sign info
+     * @returns Buffer  will return encoded payload
+     */
     Encode(sign=false):Buffer{
         let mtx=new Map()
         mtx.set(1,this.Version)
@@ -42,7 +57,11 @@ export default class transaction{
         }
         return Encoder.encode(mtx)
     }
-
+    
+    /**
+     * @param  {string} data    transaction cbor encoded payload to decode
+     * @returns transaction will generate new transaction and append stuff to it and retur it
+     */
     static Decode(data:string):transaction{
         let decodedTrx=Decoder.decodeFirstSync(data);
 
@@ -56,7 +75,7 @@ export default class transaction{
                 break;
         }
 
-        
+
         
         return new transaction(
             decodedTrx.get(1),
@@ -80,7 +99,7 @@ export enum payloadType{
 
 
 export interface ITransactionPayload{
-    Decode(data: Buffer): void,
+    Decode(data: string): void,
     Map():Map<number,any>
 }
 
