@@ -1,6 +1,5 @@
 import Logger from "./logger"
 const bls = require('bls-wasm')
-const logger=Logger.GetLogger()
 
 
 export async function GenerateSecretKey():Promise<string>{

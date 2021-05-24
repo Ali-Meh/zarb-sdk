@@ -9,7 +9,7 @@ describe("[keys]", () => {
     // })
     it("Should generate secret key",async(done)=>{
         let secret=await GenerateSecretKey()
-        console.log(secret);
+        // console.log(secret);
         done()
     })
 })
