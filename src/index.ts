@@ -1,5 +1,5 @@
 import dotenv from 'dotenv'
-import Logger from './logger'
+import Logger from './logger/logger'
 dotenv.config()
 
 

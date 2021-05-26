@@ -1,5 +1,5 @@
 import {Map} from "cbor"
-import Logger from "../logger"
+import Logger from "../logger/logger"
 import SendPayload from "./payloads/send"
 import transaction,{ payloadType } from "./transaction"
 

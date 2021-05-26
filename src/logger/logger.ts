@@ -1,4 +1,4 @@
-import { LogVer } from './constants';
+import { LogVer } from '../constants';
 
 let _logger: Partial<Console> = console;
 let _logVerbosity: LogVer = LogVer.ERROR;
