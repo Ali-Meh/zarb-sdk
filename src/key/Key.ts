@@ -5,14 +5,11 @@ const bls = require('bls-wasm')
 export default class Key{
     private privateKey:any
     private publicKey:Buffer
-    private logger:Logger
 
     /**
      * @deprecated use `New()` instead
      */
-    constructor() {
-        this.logger=Logger.GetLogger()
-    }
+    constructor() {}
 
     
     /**main constructor to setup encryption seeds
@@ -27,18 +24,19 @@ export default class Key{
         try {
             if (secret){
                 key.privateKey = bls.deserializeHexStrToSecretKey(secret)
-                key.logger.trace("Key",`Key has been restored :${key.privateKey}`)
+                Logger.trace("Key",`Key has been restored :${key.privateKey}`)
             }else{
                 key.privateKey = new bls.SecretKey()
                 key.privateKey.setByCSPRNG()
-                key.logger.trace("Key",`New Key Generated :${key.privateKey}`)
+                Logger.trace("Key",`New Key Generated :${key.privateKey}`)
             }
     
             key.publicKey=Buffer.from(key.privateKey.getPublicKey().serializeToHexStr(),'hex')
-            key.logger.trace("Key",`Public Key Set`)
+            Logger.trace("Key",`Public Key Set`)
     
         } catch (error) {
-            key.logger.Error("[Key.New]: ",error)
+            Logger.Error("[Key.New]: ",error);
+            throw error;
         }
         return key
     }
@@ -52,7 +50,7 @@ export default class Key{
     }
 
 
-    Sign(s:string|Uint8Array):any{
+    Sign(s:string|Uint8Array):Buffer{
         return this.privateKey.sign(s)
     }
 }

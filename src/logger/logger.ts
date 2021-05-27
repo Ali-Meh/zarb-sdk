@@ -9,7 +9,7 @@ let logger:Logger
 
 
 
-export default class Logger implements ILogger{
+class Logger implements ILogger{
   static verbosityString='INFO'
   static tracersString=''
   static enabledTracers:string[]
@@ -105,3 +105,5 @@ interface ILogger{
   log(severity: LogVer, ...args: any[]): void
   trace(tracer: string, text: string): void
 }
+
+export default new Logger();
