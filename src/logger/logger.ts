@@ -6,13 +6,10 @@ let _logVerbosity: LogVer = LogVer.ERROR;
 let logger:Logger
 
 
-export default function GetLogger(): Logger {
-  return new Logger();
-};
 
 
-//
-export class Logger implements ILogger{
+
+export default class Logger implements ILogger{
   static verbosityString='INFO'
   static tracersString=''
   static enabledTracers:string[]
