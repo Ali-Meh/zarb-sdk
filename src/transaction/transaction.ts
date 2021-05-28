@@ -11,8 +11,8 @@ export default class transaction{
     Type:payloadType;
     Payload:ITransactionPayload;
     Memo:string;
-    PublicKey?:string;
-    Signature?:string;
+    PublicKey?:Buffer;
+    Signature?:Buffer;
 
     /**
      * it will generate new transaction payload based on payload provided
@@ -33,8 +33,8 @@ export default class transaction{
         Type:payloadType,
         Payload:ITransactionPayload,
         Memo:string,
-        PublicKey?:string,
-        Signature?:string) {
+        PublicKey?:Buffer,
+        Signature?:Buffer) {
             
         this.Version=Version;
         this.Stamp=Stamp;
@@ -73,8 +73,8 @@ export default class transaction{
      */
     Sign(key:Key){
         logger.Debug("[Transaction.Sign]: ",`signing Transaction from ${key.GetAddress()}`)
-        this.Signature=key.Sign(this.Encode()).toString('hex')
-        this.PublicKey=key.GetPublicKey().toString('hex')
+        this.Signature=key.Sign(this.Encode())
+        this.PublicKey=key.GetPublicKey()
     }
 
     /**
@@ -103,8 +103,8 @@ export default class transaction{
             //@ts-ignore
             payload,
             decodedTrx.get(7),
-            decodedTrx.get(20)?.toString('hex'),
-            decodedTrx.get(21)?.toString('hex'),
+            decodedTrx.get(20),
+            decodedTrx.get(21),
         )
     }
 }
