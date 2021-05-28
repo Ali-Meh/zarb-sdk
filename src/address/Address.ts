@@ -23,12 +23,19 @@ export default class Address{
             this.publicKey=publicKey
         }
     }
-
+    /**
+     * Get Address
+     * @returns Buffer
+     */
     public GetAddress():Buffer{
         return this.address;
     }
 
-
+    /**
+     * verify publickey is corespondig to the address
+     * @param  {Buffer} pub public key
+     * @returns boolean
+     */
     public Verify(pub:Buffer):boolean{
         try {
             let addr=Address.FromPublicKey(pub);
