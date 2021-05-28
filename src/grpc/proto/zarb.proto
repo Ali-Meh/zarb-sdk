@@ -1,0 +1,177 @@
+syntax = 'proto3';
+
+import "google/protobuf/timestamp.proto";
+
+option go_package = "github.com/zarbchain/zarb-go/www/grpc/zarb";
+
+package zarb;
+
+service Zarb {
+  rpc GetBlock(BlockRequest) returns(BlockResponse);                                       
+  rpc GetBlockHeight(BlockHeightRequest) returns(BlockHeightResponse);                     
+  rpc GetTransaction(TransactionRequest) returns (TransactionResponse);                    
+  rpc GetAccount(AccountRequest) returns (AccountResponse);                                
+  rpc GetValidators(ValidatorsRequest) returns (ValidatorsResponse);                       
+  rpc GetValidator(ValidatorRequest) returns (ValidatorResponse);                          
+  rpc GetValidatorByNumber(ValidatorByNumberRequest) returns (ValidatorResponse);          
+  rpc GetBlockchainInfo(BlockchainInfoRequest) returns (BlockchainInfoResponse);           
+  rpc GetNetworkInfo(NetworkInfoRequest) returns (NetworkInfoResponse);                    
+  rpc SendRawTransaction(SendRawTransactionRequest) returns(SendRawTransactionResponse);   
+}
+
+
+message AccountRequest {
+	string address = 1;
+  AccountVerbosity verbosity = 2;
+}
+
+message AccountResponse {
+  Account account =1;
+  repeated Transaction tranactions=2;
+}
+
+message ValidatorsRequest {}
+
+message ValidatorRequest {
+	string address = 1;
+}
+message ValidatorByNumberRequest {
+	int32 number = 1;
+}
+
+message ValidatorsResponse {
+  repeated Validator validators = 1;
+}
+
+message ValidatorResponse {
+  Validator validator = 1;
+}
+
+message BlockRequest {
+  int64 height = 1;
+  BlockVerbosity verbosity = 2;
+}
+
+message BlockResponse {
+  string hash = 1;
+  google.protobuf.Timestamp block_time = 2;
+  BlockInfo info=3;
+  repeated Transaction tranactions=5;
+}
+
+message BlockHeightRequest {
+  string hash = 1;
+}
+
+message BlockHeightResponse {
+  int64 height=1;
+}
+
+message BlockchainInfoRequest {
+}
+
+message BlockchainInfoResponse {
+  int64 height=1;
+  string last_block_hash=2;
+}
+
+message NetworkInfoRequest {
+}
+
+message NetworkInfoResponse {
+  string peer_id = 1;
+  repeated Peer peers = 2;
+}
+
+message TransactionRequest {
+  string id = 1;
+}
+
+message TransactionResponse {
+  Transaction tranaction=1;
+}
+
+message SendRawTransactionRequest {
+  string data = 1;
+}
+
+message SendRawTransactionResponse {
+  string id = 2;
+}
+
+// TODO: add unbond height
+// TODO: in32 -> int64
+message Validator{
+  string public_key = 1;
+  int32 number = 2;
+  int32 sequence = 3;
+  int64 stake = 4;
+  int32 last_bonding_height = 5;
+  int32 last_joined_height = 6;
+  string address = 7;
+}
+
+message Peer{
+  string moniker = 1;
+  bytes node_version = 2;
+  string peer_id = 3;
+  string public_key = 4;
+  bool initial_block_download = 5;
+  int32 height = 6;
+  int32 received_messages = 7;
+  int32 invalid_messages = 8;
+  int32 received_bytes = 9;
+}
+
+message Account{
+  string address = 1;
+  int32 number = 2;
+  int32 sequence = 3;
+  int64 Balance = 4;
+}
+
+message BlockInfo {
+  int32 version = 1;
+  string last_block_hash = 2;
+  string state_hash=3;          
+  string tx_ids_hash=4;
+  string last_certificate_hash=5;
+  bytes sortition_seed=6;
+  string proposer_address=7;   
+  int64 round=8;  
+  repeated int32 committers=9;
+  repeated int32 absentees=10;
+  string signature=11;
+}
+
+message Transaction{
+  string id=1;    
+  int32 Version =2;  
+  string stamp=3;    
+  int64 sequence=4; 
+  int64 Fee =5;
+  PayloadType Type=6;
+  bytes Payload=7;
+  string memo=8;     
+  string public_key=9;
+  string signature=10;
+}
+
+enum PayloadType {
+  SEND_PAYLOAD=0;
+  BOND_PAYLOAD =1;
+  SORTITION_PAYLOAD=2;
+  UNBOND_PAYLOAD =3;
+}
+
+enum BlockVerbosity {
+  BLOCK_HASH = 0;
+  BLOCK_DATA = 1;
+  BLOCK_TRANSACTIONS = 2;
+}
+
+
+enum AccountVerbosity {
+  ACCOUNT_INFO = 0;
+  ACCOUNT_TRANSACTIONS = 1;
+}

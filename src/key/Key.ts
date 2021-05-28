@@ -19,7 +19,7 @@ export default class Key {
     /**main constructor to setup encryption seeds
      * you need to run this to get a functional key Obj
      * @constructor
-     * @param  {string} secret? in hex format to restore from
+     * @param  {string} secret? in hex string secret key to restore Key from
      * @returns Promise<Key>
      */
     public static async New(secret?: string): Promise<Key> {
