@@ -1,7 +1,7 @@
 import {Map} from "cbor"
 import Key from "../key/Key"
 import SendPayload from "./payloads/send"
-import transaction,{ payloadType } from "./transaction"
+import transaction,{ payloadType } from "./Transaction"
 
 
 

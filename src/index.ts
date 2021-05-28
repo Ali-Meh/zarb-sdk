@@ -1,7 +1,7 @@
 import dotenv from 'dotenv'
 import Address from './address/Address'
-import transaction from './transaction/transaction'
-import grpc, { AccountRequest } from './grpc/grpc'
+import Transaction from './transaction/Transaction'
+import gRPC from './grpc/grpc'
 import Key from './key/Key'
 
 dotenv.config()
@@ -9,7 +9,9 @@ dotenv.config()
 
 export {
     Address,
-    grpc,
-    transaction,
-    Key
+    Transaction,
+    Key,
+    gRPC
 }
+
+export * from './grpc/grpc'
