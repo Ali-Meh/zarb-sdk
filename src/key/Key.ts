@@ -69,7 +69,11 @@ export default class Key {
         return Address.FromPublicKey(this.publicKey)
     }
 
-
+    /**
+     * sign messages 
+     * @param  {string|Uint8Array} m message body to sign
+     * @returns Buffer of messages signutre
+     */
     Sign(m: string | Uint8Array): Buffer {
         h.update(m);
         return Buffer.from(this.privateKey.sign(h.digest()).serializeToHexStr(), 'hex')

@@ -23,6 +23,8 @@ export default class transaction{
      * @param  {payloadType} Type   type of the transaction
      * @param  {ITransactionPayload} Payload    specific payload of transaction based on type of transaction
      * @param  {string} Memo    memo for the transaction
+     * @param  {string} PublicKey? senders PublicKey
+     * @param  {string} Signature? payloads Signature
      */
     constructor(Version:number,
         Stamp:Buffer,
@@ -65,23 +67,19 @@ export default class transaction{
         return Encoder.encode(mtx)
     }
 
-
+    /**
+     * will sign transaction payload and append publickey and signature to payload
+     * @param  {Key} key key object
+     */
     Sign(key:Key){
         logger.Debug("[Transaction.Sign]: ",`signing Transaction from ${key.GetAddress()}`)
         this.Signature=key.Sign(this.Encode()).toString('hex')
         this.PublicKey=key.GetPublicKey().toString('hex')
     }
 
-    // private SignBytes():Buffer {
-    //     // this.PublicKey = undefined
-    //     // this.Signature = undefined
-    
-    //     return this.Encode()
-    // }
-    
     /**
      * @param  {string} data    transaction cbor encoded payload to decode
-     * @returns transaction will generate new transaction and append stuff to it and retur it
+     * @returns {transaction} will generate new transaction and append stuff to it and retur it
      */
     static Decode(data:string):transaction{
         let decodedTrx=Decoder.decodeFirstSync(data);
