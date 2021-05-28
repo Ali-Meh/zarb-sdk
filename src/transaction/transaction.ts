@@ -1,4 +1,6 @@
 import {Map, Encoder, Decoder } from "cbor"
+import Key from "../key/Key";
+import logger from "../logger/logger";
 import SendPayload from "./payloads/send";
 
 export default class transaction{
@@ -9,8 +11,8 @@ export default class transaction{
     Type:payloadType;
     Payload:ITransactionPayload;
     Memo:string;
-    PublicKey:string;
-    Signature:string;
+    PublicKey?:string;
+    Signature?:string;
 
     /**
      * it will generate new transaction payload based on payload provided
@@ -28,14 +30,19 @@ export default class transaction{
         Fee:number,
         Type:payloadType,
         Payload:ITransactionPayload,
-        Memo:string) {
-            this.Version=Version;
-            this.Stamp=Stamp;
-            this.Sequence=Sequence;
-            this.Fee=Fee;
-            this.Type=Type;
-            this.Payload=Payload;
-            this.Memo=Memo;
+        Memo:string,
+        PublicKey?:string,
+        Signature?:string) {
+            
+        this.Version=Version;
+        this.Stamp=Stamp;
+        this.Sequence=Sequence;
+        this.Fee=Fee;
+        this.Type=Type;
+        this.Payload=Payload;
+        this.Memo=Memo;
+        this.PublicKey=PublicKey??this.PublicKey;
+        this.Signature=Signature??this.Signature;
     }
     
     /**
@@ -57,6 +64,20 @@ export default class transaction{
         }
         return Encoder.encode(mtx)
     }
+
+
+    Sign(key:Key){
+        logger.Debug("[Transaction.Sign]: ",`signing Transaction from ${key.GetAddress()}`)
+        this.Signature=key.Sign(this.Encode()).toString('hex')
+        this.PublicKey=key.GetPublicKey().toString('hex')
+    }
+
+    // private SignBytes():Buffer {
+    //     // this.PublicKey = undefined
+    //     // this.Signature = undefined
+    
+    //     return this.Encode()
+    // }
     
     /**
      * @param  {string} data    transaction cbor encoded payload to decode
@@ -75,8 +96,6 @@ export default class transaction{
                 break;
         }
 
-
-        
         return new transaction(
             decodedTrx.get(1),
             decodedTrx.get(2),
@@ -86,6 +105,8 @@ export default class transaction{
             //@ts-ignore
             payload,
             decodedTrx.get(7),
+            decodedTrx.get(20)?.toString('hex'),
+            decodedTrx.get(21)?.toString('hex'),
         )
     }
 }

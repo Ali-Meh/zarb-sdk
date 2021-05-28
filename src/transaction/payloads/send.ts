@@ -1,15 +1,12 @@
 
-import { Decoder, Encoder, Map } from "cbor"
-import CborMap from "cbor/types/lib/map";
+import { Decoder ,Encoder, Map } from "cbor";
+import Address from "../../address/Address";
 import { ITransactionPayload } from "../transaction";
-
-//#TODO replace with dedicated address class
-const bech32 = require('bech32-buffer');
 
 export default class SendPayload implements ITransactionPayload {
 
-    private Sender: string;
-    private Receiver: string;
+    private Sender: Buffer;
+    private Receiver: Buffer;
     private Amount: Number;
 
     /** SendPayload will generate payload needed for send transaction
@@ -18,8 +15,8 @@ export default class SendPayload implements ITransactionPayload {
      * @param  {number} Amount Amount to Send
      */
     constructor(Sender: string, Receiver: string, Amount: number) {
-        this.Sender = Sender
-        this.Receiver = Receiver
+        this.Sender = Address.DecodeFromBech32(Sender)
+        this.Receiver = Address.DecodeFromBech32(Receiver)
         this.Amount = Amount
     }
 
@@ -45,10 +42,10 @@ export default class SendPayload implements ITransactionPayload {
      * will map according to the send payload object
      * @returns Map of send portion payload
      */
-    public Map():CborMap{
+    public Map():Map<number,any>{
         let sp = new Map()
-        sp.set(1, Buffer.from(bech32.decode(this.Sender).data))
-        sp.set(2, Buffer.from(bech32.decode(this.Receiver).data))
+        sp.set(1,this.Sender)
+        sp.set(2, this.Receiver)
         sp.set(3, this.Amount)
         return sp
     }
@@ -58,11 +55,11 @@ export default class SendPayload implements ITransactionPayload {
      * @param  {CborMap} data cbormap of send payload portion
      * @returns SendPayload
      */
-    public static Decode(data:CborMap): SendPayload {
+    public static Decode(data:Map<number,any>): SendPayload {
         //#TODO update after creating address requirements to convert address to bech32
         return new SendPayload(
-            data.get(1).toString('hex'),
-            data.get(2).toString('hex'),
+            Address.EncodeToBech32(data.get(1)),
+            Address.EncodeToBech32(data.get(2)),
             data.get(3)
         )
     }

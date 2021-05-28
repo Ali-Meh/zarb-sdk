@@ -2,6 +2,8 @@ import Address from "../address/Address"
 import { tracers } from "../constants"
 import Logger from "../logger/logger"
 const bls = require('bls-wasm')
+const blake2 = require('blake2');
+var h = blake2.createHash('blake2b',{digestLength:32})
 
 
 export default class Key {
@@ -68,8 +70,9 @@ export default class Key {
     }
 
 
-    Sign(s: string | Uint8Array): Buffer {
-        return this.privateKey.sign(s)
+    Sign(m: string | Uint8Array): Buffer {
+        h.update(m);
+        return Buffer.from(this.privateKey.sign(h.digest()).serializeToHexStr(), 'hex')
     }
 }
 
