@@ -1,4 +1,4 @@
-import { LogVer } from '../constants';
+import { LogVer, tracers } from '../constants';
 
 let _logger: Partial<Console> = console;
 let _logVerbosity: LogVer = LogVer.ERROR;
@@ -14,6 +14,7 @@ class Logger implements ILogger{
   static tracersString=''
   static enabledTracers:string[]
   static allEnabled:boolean
+
 
   /**
    * will create or return already created logger object
@@ -91,7 +92,7 @@ class Logger implements ILogger{
     }
   };
  
-  public trace(tracer: string, ...args: any[]): void{
+  public trace(tracer: tracers, ...args: any[]): void{
     if (Logger.allEnabled || Logger.enabledTracers.includes(tracer)) {
       this.log(LogVer.TRACE, `[${new Date().toISOString()}]::${tracer} => `, ...args);
     }

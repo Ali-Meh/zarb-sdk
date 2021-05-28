@@ -6,6 +6,7 @@ export enum LogVer {
     INFO,
 }
 
-export const tracers=[
-    'keys'
-]
+export enum tracers{
+    KEY='KEY',
+    ADDRESS='ADDRESS',
+}
