@@ -1,4 +1,5 @@
-import Logger from "../logger/logger"
+import { tracers } from "../constants";
+import logger from "../logger/logger";
 const bech32 = require('bech32-buffer');
 const RIPEMD160 = require('ripemd160');
 var blake2 = require('blake2');
@@ -10,17 +11,42 @@ export default class Address{
     /**
      * Will generate 
      */
-    constructor(publicKey?:Buffer) {
-        this.publicKey=publicKey;
-        if (this.publicKey) {
-            this.address=Address.FromPublicKey(this.publicKey);
+    constructor(address:string,publicKey?:Buffer) {
+        this.address=Address.DecodeFromBech32(address)
+        if (publicKey){
+            let addr=Address.FromPublicKey(publicKey)
+            logger.Debug(`[Address.CTOR.pubkey]: ${addr}`)
+            if (addr.toString()!=this.address.toString()) {
+                logger.Error(`[Address.CTOR]: ${addr.toString('hex')} != ${this.address.toString('hex')}`)
+                throw new Error("public key and address don't match");
+            }
+            this.publicKey=publicKey
         }
-        Logger.trace("Address","New address generated");
     }
 
     public GetAddress():Buffer{
         return this.address;
     }
+
+
+    public Verify(pub:Buffer):boolean{
+        try {
+            let addr=Address.FromPublicKey(pub);
+            return addr.toString()==this.address.toString();
+        } catch (error) {
+            logger.Error('[Address.Verify]: ',error);
+        }
+        return false;
+    }
+
+
+
+
+
+
+
+
+    /***** */
 
 
     static FromPublicKey(pub:Buffer):Buffer{
@@ -29,19 +55,15 @@ export default class Address{
             var h = blake2.createHash('blake2b',{digestLength:32})
             h.update(pub);
             let has=h.digest("hex");
-            Logger.Debug('Address',`blake2b => ${has}`)
+            logger.Debug('Address',`blake2b => ${has}`)
         
         
             let rip=new RIPEMD160()
-            address=rip.update(has,'hex').digest('hex')
-            Logger.Debug('Address',`ripemd160 => ${address}`)
+            address=rip.update(has,'hex').digest()
+            logger.Debug('Address',`ripemd160 => ${address.toString()}`)
     
-        
-    
-            // address=bech32.encode("zrb",Buffer.from(addr, 'hex'))
-            // Logger.Debug('Address',`Address => ${address}`)
         } catch (error) {
-            Logger.Error('[Address.FromPublicKey]',error)
+            logger.Error('[Address.FromPublicKey]',error)
             throw error;
         }
 
@@ -51,15 +73,23 @@ export default class Address{
 
     static EncodeToBech32(address:Buffer):string{
         let encoded=bech32.encode("zrb",address)
-        Logger.Debug('Address',`Encoded bech32 Address => ${encoded}`)
+        logger.Debug('Address',`Encoded bech32 Address => ${encoded}`)
         return encoded
     }
 
     
     static DecodeFromBech32(address:string):Buffer{
-        let decoded=Buffer.from(bech32.decode(address).data)
-        Logger.Debug('Address',`Decoded bech32 Address => ${decoded}`)
-        return decoded
+        try {
+            let decoded=bech32.decode(address)
+            if (decoded.prefix!='zrb') {
+                throw new Error("Prefix Doesn't match");
+            }
+            logger.Debug('Address',`Decoded bech32 Address => ${decoded}`)
+            return Buffer.from(decoded.data)
+        } catch (error) {
+            logger.Error("[Address.DecodeFromBech32]: ",error);
+            throw error
+        }
     }
 
 }
