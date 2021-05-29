@@ -12,4 +12,5 @@ module.exports = {
     "transform": {
         "^.+\\.(ts|tsx)$": "ts-jest"
     },
+    "collectCoverage":process.env.NODE_ENV!='Production'
 }
