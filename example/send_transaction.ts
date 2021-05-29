@@ -1,7 +1,7 @@
 //@ts-ignore
-import {Key,Logger,Transaction,gRPC, BlockchainInfoRequest, AccountRequest, SendPayload, Address ,payloadType, SendRawTransactionRequest,AccountResponse, BlockchainInfoResponse,SendRawTransactionResponse} from '..'
+import {Key,Logger,Transaction,ZarbRPC, BlockchainInfoRequest, AccountRequest, SendPayload, Address ,payloadType, SendRawTransactionRequest,AccountResponse, BlockchainInfoResponse,SendRawTransactionResponse} from '..'
 import dotenv from 'dotenv'
-import { credentials } from '@grpc/grpc-js';
+import { credentials,ServiceError } from '@grpc/grpc-js';
 dotenv.config()
 
 
@@ -9,13 +9,13 @@ async function main() {
     let senderkey=await Key.New();
     let reciverkey=await Key.New();
 
-    let zarbRPC=new gRPC("172.104.186.100:9090",credentials.createInsecure())
+    let zarbRPC=new ZarbRPC("172.104.186.100:9090",credentials.createInsecure())
 
     Logger.Info("Connecting to grpc")
     try {
         Logger.Info("grpcClient connected")
         
-        zarbRPC.getBlockchainInfo(new BlockchainInfoRequest(),(err:Error,info:BlockchainInfoResponse)=>{
+        zarbRPC.getBlockchainInfo(new BlockchainInfoRequest(),(err:ServiceError | null,info:BlockchainInfoResponse)=>{
             if (err){
                 Logger.Error("[Exmaple.getBlockchainInfo]: ",err)
                 return;
@@ -24,7 +24,7 @@ async function main() {
             Logger.Debug(`[Exmaple.AccountRequest]: requesting info for address ${Address.EncodeToBech32(senderkey.GetAddress())}`)
 
             zarbRPC.getAccount(new AccountRequest().setAddress(Address.EncodeToBech32(senderkey.GetAddress())),
-            (err:Error,acc:AccountResponse)=>{
+            (err:ServiceError | null,acc:AccountResponse)=>{
                 if (err){
                     Logger.Error("[Exmaple.getAccount]: ",err)
                     return;
@@ -41,7 +41,7 @@ async function main() {
                 transaction.Sign(senderkey)
 
                 let signedTrx=transaction.Encode(true)
-                zarbRPC.sendRawTransaction(new SendRawTransactionRequest().setData(signedTrx.toString('hex')),((err:Error,res:SendRawTransactionResponse)=>{
+                zarbRPC.sendRawTransaction(new SendRawTransactionRequest().setData(signedTrx.toString('hex')),((err:ServiceError | null,res:SendRawTransactionResponse)=>{
                     if (err){
                         console.log("[Exmaple.sendRawTransaction]: ",err)
                         return;
@@ -52,7 +52,6 @@ async function main() {
             })
         })
     } catch (error) {
-        Logger.Info(typeof gRPC)
         Logger.Error(error)
     }
 }
