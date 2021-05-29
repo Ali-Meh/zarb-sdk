@@ -20,7 +20,7 @@ async function main() {
                 Logger.Error("[Exmaple.getBlockchainInfo]: ",err)
                 return;
             }
-            Logger.Debug(`[Exmaple.getBlockchainInfo]: Got blockchaine Info ${info.toObject()}`)
+            Logger.Debug(`[Exmaple.getBlockchainInfo]: Got blockchaine Info \n${JSON.stringify(info.toObject())}`)
             Logger.Debug(`[Exmaple.AccountRequest]: requesting info for address ${Address.EncodeToBech32(senderkey.GetAddress())}`)
 
             zarbRPC.getAccount(new AccountRequest().setAddress(Address.EncodeToBech32(senderkey.GetAddress())),
@@ -29,7 +29,7 @@ async function main() {
                     Logger.Error("[Exmaple.getAccount]: ",err)
                     return;
                 }
-                Logger.Debug(`[Exmaple.getBlockchainInfo]: Got Account Info ${acc.toObject()}`)
+                Logger.Debug(`[Exmaple.getBlockchainInfo]: Got Account Info \n${JSON.stringify(acc.toObject())}`)
 
                 //@ts-ignore
                 let transaction=new Transaction(1,Buffer.from(info.getLastBlockHash(),'hex'),acc.getAccount().getSequence()+1,1000,payloadType.PayloadTypeSend,new SendPayload(
@@ -59,7 +59,6 @@ async function main() {
 
 main().then(e=>{
     console.log("done");
-    
 })
 
 // setTimeout(()=>{
