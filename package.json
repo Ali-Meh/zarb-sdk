@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc -p .",
-    "test": "jest --verbose",
+    "test": "jest",
     "dev:start": "ts-node src/index.ts",
     "dev": "nodemon -e js,ts,json,env --exec npm run dev:start",
     "dev:test": "nodemon -e js,ts,json,env --exec npm run test"
@@ -15,11 +15,11 @@
     "url": "github.com/ali-meh/zarb-sdk"
   },
   "keywords": [
-    "blockchian",
+    "blockchain",
     "sdk",
     "zarb"
   ],
-  "author": "Ali Mahdavi",
+  "author": "Ali Mahdavi (a5mahdavy5@gmail.com)",
   "license": "MIT",
   "dependencies": {
     "@grpc/grpc-js": "^1.3.2",
@@ -27,7 +27,6 @@
     "bech32-buffer": "^0.1.3",
     "bignumber.js": "^9.0.1",
     "blake2": "^4.0.2",
-    "blakejs": "^1.1.0",
     "bls-wasm": "^0.4.4",
     "cbor": "^7.0.5",
     "dotenv": "^10.0.0",
