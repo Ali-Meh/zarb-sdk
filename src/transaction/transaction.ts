@@ -3,7 +3,7 @@ import Key from "../key/Key";
 import logger from "../logger/logger";
 import SendPayload from "./payloads/send";
 
-export default class transaction{
+export default class Transaction{
     Version:number;
     Stamp:Buffer;
     Sequence:number;
@@ -79,9 +79,9 @@ export default class transaction{
 
     /**
      * @param  {string} data    transaction cbor encoded payload to decode
-     * @returns {transaction} will generate new transaction and append stuff to it and retur it
+     * @returns {Transaction} will generate new transaction and append stuff to it and retur it
      */
-    static Decode(data:string):transaction{
+    static Decode(data:string):Transaction{
         let decodedTrx=Decoder.decodeFirstSync(data);
 
         let payload:ITransactionPayload
@@ -94,7 +94,7 @@ export default class transaction{
                 break;
         }
 
-        return new transaction(
+        return new Transaction(
             decodedTrx.get(1),
             decodedTrx.get(2),
             decodedTrx.get(3),
