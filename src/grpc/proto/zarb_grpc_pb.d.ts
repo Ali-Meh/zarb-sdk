@@ -4,7 +4,8 @@
 /* tslint:disable */
 /* eslint-disable */
 
-import * as grpc from "grpc";
+import * as grpc from "@grpc/grpc-js";
+import {handleClientStreamingCall} from "@grpc/grpc-js/build/src/server-call";
 import * as zarb_pb from "./zarb_pb";
 import * as google_protobuf_timestamp_pb from "google-protobuf/google/protobuf/timestamp_pb";
 
@@ -114,7 +115,7 @@ interface IZarbService_ISendRawTransaction extends grpc.MethodDefinition<zarb_pb
 
 export const ZarbService: IZarbService;
 
-export interface IZarbServer {
+export interface IZarbServer extends grpc.UntypedServiceImplementation {
     getBlock: grpc.handleUnaryCall<zarb_pb.BlockRequest, zarb_pb.BlockResponse>;
     getBlockHeight: grpc.handleUnaryCall<zarb_pb.BlockHeightRequest, zarb_pb.BlockHeightResponse>;
     getTransaction: grpc.handleUnaryCall<zarb_pb.TransactionRequest, zarb_pb.TransactionResponse>;
@@ -161,7 +162,7 @@ export interface IZarbClient {
 }
 
 export class ZarbClient extends grpc.Client implements IZarbClient {
-    constructor(address: string, credentials: grpc.ChannelCredentials, options?: object);
+    constructor(address: string, credentials: grpc.ChannelCredentials, options?: Partial<grpc.ClientOptions>);
     public getBlock(request: zarb_pb.BlockRequest, callback: (error: grpc.ServiceError | null, response: zarb_pb.BlockResponse) => void): grpc.ClientUnaryCall;
     public getBlock(request: zarb_pb.BlockRequest, metadata: grpc.Metadata, callback: (error: grpc.ServiceError | null, response: zarb_pb.BlockResponse) => void): grpc.ClientUnaryCall;
     public getBlock(request: zarb_pb.BlockRequest, metadata: grpc.Metadata, options: Partial<grpc.CallOptions>, callback: (error: grpc.ServiceError | null, response: zarb_pb.BlockResponse) => void): grpc.ClientUnaryCall;
