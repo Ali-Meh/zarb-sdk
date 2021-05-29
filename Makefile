@@ -1,14 +1,11 @@
+PROTO_DEST=./src/grpc/proto
+
 
 proto:
 	grpc_tools_node_protoc \
-	--js_out=import_style=commonjs,binary:./src/grpc/proto \
-	--grpc_out=./src/grpc/proto \
-	-I ./src/grpc/proto \
-	./src/grpc/proto/*.proto
-
-# generate d.ts codes
-	protoc \
-	--plugin=protoc-gen-ts=./node_modules/.bin/protoc-gen-ts \
-	--ts_out=./src/grpc/proto \
-	-I ./src/grpc/proto \
-	./src/grpc/proto/*.proto
+    --plugin=protoc-gen-ts=./node_modules/.bin/protoc-gen-ts \
+    --ts_out=grpc_js:${PROTO_DEST} \
+    --js_out=import_style=commonjs,binary:${PROTO_DEST} \
+    --grpc_out=grpc_js:${PROTO_DEST} \
+    -I ${PROTO_DEST} \
+    ${PROTO_DEST}/*.proto
