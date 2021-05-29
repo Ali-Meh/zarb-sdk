@@ -1,7 +1,7 @@
 
 import { Decoder ,Encoder, Map } from "cbor";
 import Address from "../../address/Address";
-import { ITransactionPayload } from "../transaction";
+import { ITransactionPayload } from "../Transaction";
 
 export default class SendPayload implements ITransactionPayload {
 

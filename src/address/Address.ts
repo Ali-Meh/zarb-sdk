@@ -66,15 +66,15 @@ export default class Address{
         
         
             let rip=new RIPEMD160()
-            address=rip.update(has,'hex').digest()
-            logger.Debug('Address',`ripemd160 => ${address.toString()}`)
+            address=rip.update(has,'hex').digest('hex')
+            logger.Debug('Address',`ripemd160 => ${address}`)
     
         } catch (error) {
             logger.Error('[Address.FromPublicKey]',error)
             throw error;
         }
 
-        return Buffer.from(address)
+        return Buffer.from(address,'hex')
     }
 
 
