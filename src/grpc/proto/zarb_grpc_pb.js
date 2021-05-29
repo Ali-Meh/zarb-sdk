@@ -214,8 +214,7 @@ function deserialize_zarb_ValidatorsResponse(buffer_arg) {
   return zarb_pb.ValidatorsResponse.deserializeBinary(new Uint8Array(buffer_arg));
 }
 
-
-var ZarbService = exports.ZarbService = {
+var ZarbService = (exports.ZarbService = {
   getBlock: {
     path: '/zarb.Zarb/GetBlock',
     requestStream: false,
@@ -326,6 +325,6 @@ var ZarbService = exports.ZarbService = {
     responseSerialize: serialize_zarb_SendRawTransactionResponse,
     responseDeserialize: deserialize_zarb_SendRawTransactionResponse,
   },
-};
+});
 
 exports.ZarbClient = grpc.makeGenericClientConstructor(ZarbService);

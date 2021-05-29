@@ -54,7 +54,7 @@ goog.exportSymbol('proto.zarb.ValidatorsResponse', null, global);
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.AccountRequest = function(opt_data) {
+proto.zarb.AccountRequest = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.AccountRequest, jspb.Message);
@@ -75,7 +75,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.AccountResponse = function(opt_data) {
+proto.zarb.AccountResponse = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, proto.zarb.AccountResponse.repeatedFields_, null);
 };
 goog.inherits(proto.zarb.AccountResponse, jspb.Message);
@@ -96,7 +96,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.ValidatorsRequest = function(opt_data) {
+proto.zarb.ValidatorsRequest = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.ValidatorsRequest, jspb.Message);
@@ -117,7 +117,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.ValidatorRequest = function(opt_data) {
+proto.zarb.ValidatorRequest = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.ValidatorRequest, jspb.Message);
@@ -138,7 +138,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.ValidatorByNumberRequest = function(opt_data) {
+proto.zarb.ValidatorByNumberRequest = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.ValidatorByNumberRequest, jspb.Message);
@@ -159,7 +159,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.ValidatorsResponse = function(opt_data) {
+proto.zarb.ValidatorsResponse = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, proto.zarb.ValidatorsResponse.repeatedFields_, null);
 };
 goog.inherits(proto.zarb.ValidatorsResponse, jspb.Message);
@@ -180,7 +180,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.ValidatorResponse = function(opt_data) {
+proto.zarb.ValidatorResponse = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.ValidatorResponse, jspb.Message);
@@ -201,7 +201,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.BlockRequest = function(opt_data) {
+proto.zarb.BlockRequest = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.BlockRequest, jspb.Message);
@@ -222,7 +222,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.BlockResponse = function(opt_data) {
+proto.zarb.BlockResponse = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, proto.zarb.BlockResponse.repeatedFields_, null);
 };
 goog.inherits(proto.zarb.BlockResponse, jspb.Message);
@@ -243,7 +243,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.BlockHeightRequest = function(opt_data) {
+proto.zarb.BlockHeightRequest = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.BlockHeightRequest, jspb.Message);
@@ -264,7 +264,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.BlockHeightResponse = function(opt_data) {
+proto.zarb.BlockHeightResponse = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.BlockHeightResponse, jspb.Message);
@@ -285,7 +285,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.BlockchainInfoRequest = function(opt_data) {
+proto.zarb.BlockchainInfoRequest = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.BlockchainInfoRequest, jspb.Message);
@@ -306,7 +306,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.BlockchainInfoResponse = function(opt_data) {
+proto.zarb.BlockchainInfoResponse = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.BlockchainInfoResponse, jspb.Message);
@@ -327,7 +327,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.NetworkInfoRequest = function(opt_data) {
+proto.zarb.NetworkInfoRequest = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.NetworkInfoRequest, jspb.Message);
@@ -348,7 +348,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.NetworkInfoResponse = function(opt_data) {
+proto.zarb.NetworkInfoResponse = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, proto.zarb.NetworkInfoResponse.repeatedFields_, null);
 };
 goog.inherits(proto.zarb.NetworkInfoResponse, jspb.Message);
@@ -369,7 +369,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.TransactionRequest = function(opt_data) {
+proto.zarb.TransactionRequest = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.TransactionRequest, jspb.Message);
@@ -390,7 +390,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.TransactionResponse = function(opt_data) {
+proto.zarb.TransactionResponse = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.TransactionResponse, jspb.Message);
@@ -411,7 +411,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.SendRawTransactionRequest = function(opt_data) {
+proto.zarb.SendRawTransactionRequest = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.SendRawTransactionRequest, jspb.Message);
@@ -432,7 +432,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.SendRawTransactionResponse = function(opt_data) {
+proto.zarb.SendRawTransactionResponse = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.SendRawTransactionResponse, jspb.Message);
@@ -453,7 +453,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.Validator = function(opt_data) {
+proto.zarb.Validator = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.Validator, jspb.Message);
@@ -474,7 +474,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.Peer = function(opt_data) {
+proto.zarb.Peer = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.Peer, jspb.Message);
@@ -495,7 +495,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.Account = function(opt_data) {
+proto.zarb.Account = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.Account, jspb.Message);
@@ -516,7 +516,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.BlockInfo = function(opt_data) {
+proto.zarb.BlockInfo = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, proto.zarb.BlockInfo.repeatedFields_, null);
 };
 goog.inherits(proto.zarb.BlockInfo, jspb.Message);
@@ -537,7 +537,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.zarb.Transaction = function(opt_data) {
+proto.zarb.Transaction = function (opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.zarb.Transaction, jspb.Message);
@@ -549,60 +549,56 @@ if (goog.DEBUG && !COMPILED) {
   proto.zarb.Transaction.displayName = 'proto.zarb.Transaction';
 }
 
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.AccountRequest.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.AccountRequest.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.AccountRequest} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.AccountRequest.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    address: jspb.Message.getFieldWithDefault(msg, 1, ""),
-    verbosity: jspb.Message.getFieldWithDefault(msg, 2, 0)
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.AccountRequest.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.AccountRequest.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.AccountRequest} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.AccountRequest.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        address: jspb.Message.getFieldWithDefault(msg, 1, ''),
+        verbosity: jspb.Message.getFieldWithDefault(msg, 2, 0),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.AccountRequest}
  */
-proto.zarb.AccountRequest.deserializeBinary = function(bytes) {
+proto.zarb.AccountRequest.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.AccountRequest;
+  var msg = new proto.zarb.AccountRequest();
   return proto.zarb.AccountRequest.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -611,40 +607,38 @@ proto.zarb.AccountRequest.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.AccountRequest}
  */
-proto.zarb.AccountRequest.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.AccountRequest.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setAddress(value);
-      break;
-    case 2:
-      var value = /** @type {!proto.zarb.AccountVerbosity} */ (reader.readEnum());
-      msg.setVerbosity(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setAddress(value);
+        break;
+      case 2:
+        var value = /** @type {!proto.zarb.AccountVerbosity} */ (reader.readEnum());
+        msg.setVerbosity(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.AccountRequest.prototype.serializeBinary = function() {
+proto.zarb.AccountRequest.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.AccountRequest.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -653,61 +647,49 @@ proto.zarb.AccountRequest.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.AccountRequest.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.AccountRequest.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getAddress();
   if (f.length > 0) {
-    writer.writeString(
-      1,
-      f
-    );
+    writer.writeString(1, f);
   }
   f = message.getVerbosity();
   if (f !== 0.0) {
-    writer.writeEnum(
-      2,
-      f
-    );
+    writer.writeEnum(2, f);
   }
 };
-
 
 /**
  * optional string address = 1;
  * @return {string}
  */
-proto.zarb.AccountRequest.prototype.getAddress = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
+proto.zarb.AccountRequest.prototype.getAddress = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.AccountRequest} returns this
  */
-proto.zarb.AccountRequest.prototype.setAddress = function(value) {
+proto.zarb.AccountRequest.prototype.setAddress = function (value) {
   return jspb.Message.setProto3StringField(this, 1, value);
 };
-
 
 /**
  * optional AccountVerbosity verbosity = 2;
  * @return {!proto.zarb.AccountVerbosity}
  */
-proto.zarb.AccountRequest.prototype.getVerbosity = function() {
+proto.zarb.AccountRequest.prototype.getVerbosity = function () {
   return /** @type {!proto.zarb.AccountVerbosity} */ (jspb.Message.getFieldWithDefault(this, 2, 0));
 };
-
 
 /**
  * @param {!proto.zarb.AccountVerbosity} value
  * @return {!proto.zarb.AccountRequest} returns this
  */
-proto.zarb.AccountRequest.prototype.setVerbosity = function(value) {
+proto.zarb.AccountRequest.prototype.setVerbosity = function (value) {
   return jspb.Message.setProto3EnumField(this, 2, value);
 };
-
-
 
 /**
  * List of repeated fields within this message type.
@@ -716,61 +698,60 @@ proto.zarb.AccountRequest.prototype.setVerbosity = function(value) {
  */
 proto.zarb.AccountResponse.repeatedFields_ = [2];
 
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.AccountResponse.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.AccountResponse.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.AccountResponse} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.AccountResponse.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    account: (f = msg.getAccount()) && proto.zarb.Account.toObject(includeInstance, f),
-    tranactionsList: jspb.Message.toObjectList(msg.getTranactionsList(),
-    proto.zarb.Transaction.toObject, includeInstance)
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.AccountResponse.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.AccountResponse.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.AccountResponse} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.AccountResponse.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        account: (f = msg.getAccount()) && proto.zarb.Account.toObject(includeInstance, f),
+        tranactionsList: jspb.Message.toObjectList(
+          msg.getTranactionsList(),
+          proto.zarb.Transaction.toObject,
+          includeInstance,
+        ),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.AccountResponse}
  */
-proto.zarb.AccountResponse.deserializeBinary = function(bytes) {
+proto.zarb.AccountResponse.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.AccountResponse;
+  var msg = new proto.zarb.AccountResponse();
   return proto.zarb.AccountResponse.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -779,42 +760,40 @@ proto.zarb.AccountResponse.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.AccountResponse}
  */
-proto.zarb.AccountResponse.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.AccountResponse.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = new proto.zarb.Account;
-      reader.readMessage(value,proto.zarb.Account.deserializeBinaryFromReader);
-      msg.setAccount(value);
-      break;
-    case 2:
-      var value = new proto.zarb.Transaction;
-      reader.readMessage(value,proto.zarb.Transaction.deserializeBinaryFromReader);
-      msg.addTranactions(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = new proto.zarb.Account();
+        reader.readMessage(value, proto.zarb.Account.deserializeBinaryFromReader);
+        msg.setAccount(value);
+        break;
+      case 2:
+        var value = new proto.zarb.Transaction();
+        reader.readMessage(value, proto.zarb.Transaction.deserializeBinaryFromReader);
+        msg.addTranactions(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.AccountResponse.prototype.serializeBinary = function() {
+proto.zarb.AccountResponse.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.AccountResponse.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -823,156 +802,132 @@ proto.zarb.AccountResponse.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.AccountResponse.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.AccountResponse.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getAccount();
   if (f != null) {
-    writer.writeMessage(
-      1,
-      f,
-      proto.zarb.Account.serializeBinaryToWriter
-    );
+    writer.writeMessage(1, f, proto.zarb.Account.serializeBinaryToWriter);
   }
   f = message.getTranactionsList();
   if (f.length > 0) {
-    writer.writeRepeatedMessage(
-      2,
-      f,
-      proto.zarb.Transaction.serializeBinaryToWriter
-    );
+    writer.writeRepeatedMessage(2, f, proto.zarb.Transaction.serializeBinaryToWriter);
   }
 };
-
 
 /**
  * optional Account account = 1;
  * @return {?proto.zarb.Account}
  */
-proto.zarb.AccountResponse.prototype.getAccount = function() {
-  return /** @type{?proto.zarb.Account} */ (
-    jspb.Message.getWrapperField(this, proto.zarb.Account, 1));
+proto.zarb.AccountResponse.prototype.getAccount = function () {
+  return /** @type{?proto.zarb.Account} */ (jspb.Message.getWrapperField(this, proto.zarb.Account, 1));
 };
-
 
 /**
  * @param {?proto.zarb.Account|undefined} value
  * @return {!proto.zarb.AccountResponse} returns this
-*/
-proto.zarb.AccountResponse.prototype.setAccount = function(value) {
+ */
+proto.zarb.AccountResponse.prototype.setAccount = function (value) {
   return jspb.Message.setWrapperField(this, 1, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
  * @return {!proto.zarb.AccountResponse} returns this
  */
-proto.zarb.AccountResponse.prototype.clearAccount = function() {
+proto.zarb.AccountResponse.prototype.clearAccount = function () {
   return this.setAccount(undefined);
 };
-
 
 /**
  * Returns whether this field is set.
  * @return {boolean}
  */
-proto.zarb.AccountResponse.prototype.hasAccount = function() {
+proto.zarb.AccountResponse.prototype.hasAccount = function () {
   return jspb.Message.getField(this, 1) != null;
 };
-
 
 /**
  * repeated Transaction tranactions = 2;
  * @return {!Array<!proto.zarb.Transaction>}
  */
-proto.zarb.AccountResponse.prototype.getTranactionsList = function() {
+proto.zarb.AccountResponse.prototype.getTranactionsList = function () {
   return /** @type{!Array<!proto.zarb.Transaction>} */ (
-    jspb.Message.getRepeatedWrapperField(this, proto.zarb.Transaction, 2));
+    jspb.Message.getRepeatedWrapperField(this, proto.zarb.Transaction, 2)
+  );
 };
-
 
 /**
  * @param {!Array<!proto.zarb.Transaction>} value
  * @return {!proto.zarb.AccountResponse} returns this
-*/
-proto.zarb.AccountResponse.prototype.setTranactionsList = function(value) {
+ */
+proto.zarb.AccountResponse.prototype.setTranactionsList = function (value) {
   return jspb.Message.setRepeatedWrapperField(this, 2, value);
 };
-
 
 /**
  * @param {!proto.zarb.Transaction=} opt_value
  * @param {number=} opt_index
  * @return {!proto.zarb.Transaction}
  */
-proto.zarb.AccountResponse.prototype.addTranactions = function(opt_value, opt_index) {
+proto.zarb.AccountResponse.prototype.addTranactions = function (opt_value, opt_index) {
   return jspb.Message.addToRepeatedWrapperField(this, 2, opt_value, proto.zarb.Transaction, opt_index);
 };
-
 
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.zarb.AccountResponse} returns this
  */
-proto.zarb.AccountResponse.prototype.clearTranactionsList = function() {
+proto.zarb.AccountResponse.prototype.clearTranactionsList = function () {
   return this.setTranactionsList([]);
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.ValidatorsRequest.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.ValidatorsRequest.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.ValidatorsRequest} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.ValidatorsRequest.toObject = function(includeInstance, msg) {
-  var f, obj = {
-
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.ValidatorsRequest.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.ValidatorsRequest.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.ValidatorsRequest} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.ValidatorsRequest.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {};
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.ValidatorsRequest}
  */
-proto.zarb.ValidatorsRequest.deserializeBinary = function(bytes) {
+proto.zarb.ValidatorsRequest.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.ValidatorsRequest;
+  var msg = new proto.zarb.ValidatorsRequest();
   return proto.zarb.ValidatorsRequest.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -981,32 +936,30 @@ proto.zarb.ValidatorsRequest.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.ValidatorsRequest}
  */
-proto.zarb.ValidatorsRequest.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.ValidatorsRequest.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    default:
-      reader.skipField();
-      break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.ValidatorsRequest.prototype.serializeBinary = function() {
+proto.zarb.ValidatorsRequest.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.ValidatorsRequest.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -1015,65 +968,59 @@ proto.zarb.ValidatorsRequest.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.ValidatorsRequest.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.ValidatorsRequest.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.ValidatorRequest.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.ValidatorRequest.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.ValidatorRequest} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.ValidatorRequest.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    address: jspb.Message.getFieldWithDefault(msg, 1, "")
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.ValidatorRequest.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.ValidatorRequest.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.ValidatorRequest} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.ValidatorRequest.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        address: jspb.Message.getFieldWithDefault(msg, 1, ''),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.ValidatorRequest}
  */
-proto.zarb.ValidatorRequest.deserializeBinary = function(bytes) {
+proto.zarb.ValidatorRequest.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.ValidatorRequest;
+  var msg = new proto.zarb.ValidatorRequest();
   return proto.zarb.ValidatorRequest.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -1082,36 +1029,34 @@ proto.zarb.ValidatorRequest.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.ValidatorRequest}
  */
-proto.zarb.ValidatorRequest.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.ValidatorRequest.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setAddress(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setAddress(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.ValidatorRequest.prototype.serializeBinary = function() {
+proto.zarb.ValidatorRequest.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.ValidatorRequest.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -1120,90 +1065,79 @@ proto.zarb.ValidatorRequest.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.ValidatorRequest.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.ValidatorRequest.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getAddress();
   if (f.length > 0) {
-    writer.writeString(
-      1,
-      f
-    );
+    writer.writeString(1, f);
   }
 };
-
 
 /**
  * optional string address = 1;
  * @return {string}
  */
-proto.zarb.ValidatorRequest.prototype.getAddress = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
+proto.zarb.ValidatorRequest.prototype.getAddress = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.ValidatorRequest} returns this
  */
-proto.zarb.ValidatorRequest.prototype.setAddress = function(value) {
+proto.zarb.ValidatorRequest.prototype.setAddress = function (value) {
   return jspb.Message.setProto3StringField(this, 1, value);
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.ValidatorByNumberRequest.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.ValidatorByNumberRequest.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.ValidatorByNumberRequest} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.ValidatorByNumberRequest.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    number: jspb.Message.getFieldWithDefault(msg, 1, 0)
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.ValidatorByNumberRequest.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.ValidatorByNumberRequest.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.ValidatorByNumberRequest} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.ValidatorByNumberRequest.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        number: jspb.Message.getFieldWithDefault(msg, 1, 0),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.ValidatorByNumberRequest}
  */
-proto.zarb.ValidatorByNumberRequest.deserializeBinary = function(bytes) {
+proto.zarb.ValidatorByNumberRequest.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.ValidatorByNumberRequest;
+  var msg = new proto.zarb.ValidatorByNumberRequest();
   return proto.zarb.ValidatorByNumberRequest.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -1212,36 +1146,34 @@ proto.zarb.ValidatorByNumberRequest.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.ValidatorByNumberRequest}
  */
-proto.zarb.ValidatorByNumberRequest.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.ValidatorByNumberRequest.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = /** @type {number} */ (reader.readInt32());
-      msg.setNumber(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = /** @type {number} */ (reader.readInt32());
+        msg.setNumber(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.ValidatorByNumberRequest.prototype.serializeBinary = function() {
+proto.zarb.ValidatorByNumberRequest.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.ValidatorByNumberRequest.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -1250,36 +1182,29 @@ proto.zarb.ValidatorByNumberRequest.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.ValidatorByNumberRequest.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.ValidatorByNumberRequest.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getNumber();
   if (f !== 0) {
-    writer.writeInt32(
-      1,
-      f
-    );
+    writer.writeInt32(1, f);
   }
 };
-
 
 /**
  * optional int32 number = 1;
  * @return {number}
  */
-proto.zarb.ValidatorByNumberRequest.prototype.getNumber = function() {
+proto.zarb.ValidatorByNumberRequest.prototype.getNumber = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 1, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.ValidatorByNumberRequest} returns this
  */
-proto.zarb.ValidatorByNumberRequest.prototype.setNumber = function(value) {
+proto.zarb.ValidatorByNumberRequest.prototype.setNumber = function (value) {
   return jspb.Message.setProto3IntField(this, 1, value);
 };
-
-
 
 /**
  * List of repeated fields within this message type.
@@ -1288,60 +1213,59 @@ proto.zarb.ValidatorByNumberRequest.prototype.setNumber = function(value) {
  */
 proto.zarb.ValidatorsResponse.repeatedFields_ = [1];
 
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.ValidatorsResponse.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.ValidatorsResponse.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.ValidatorsResponse} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.ValidatorsResponse.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    validatorsList: jspb.Message.toObjectList(msg.getValidatorsList(),
-    proto.zarb.Validator.toObject, includeInstance)
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.ValidatorsResponse.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.ValidatorsResponse.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.ValidatorsResponse} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.ValidatorsResponse.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        validatorsList: jspb.Message.toObjectList(
+          msg.getValidatorsList(),
+          proto.zarb.Validator.toObject,
+          includeInstance,
+        ),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.ValidatorsResponse}
  */
-proto.zarb.ValidatorsResponse.deserializeBinary = function(bytes) {
+proto.zarb.ValidatorsResponse.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.ValidatorsResponse;
+  var msg = new proto.zarb.ValidatorsResponse();
   return proto.zarb.ValidatorsResponse.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -1350,37 +1274,35 @@ proto.zarb.ValidatorsResponse.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.ValidatorsResponse}
  */
-proto.zarb.ValidatorsResponse.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.ValidatorsResponse.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = new proto.zarb.Validator;
-      reader.readMessage(value,proto.zarb.Validator.deserializeBinaryFromReader);
-      msg.addValidators(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = new proto.zarb.Validator();
+        reader.readMessage(value, proto.zarb.Validator.deserializeBinaryFromReader);
+        msg.addValidators(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.ValidatorsResponse.prototype.serializeBinary = function() {
+proto.zarb.ValidatorsResponse.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.ValidatorsResponse.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -1389,111 +1311,98 @@ proto.zarb.ValidatorsResponse.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.ValidatorsResponse.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.ValidatorsResponse.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getValidatorsList();
   if (f.length > 0) {
-    writer.writeRepeatedMessage(
-      1,
-      f,
-      proto.zarb.Validator.serializeBinaryToWriter
-    );
+    writer.writeRepeatedMessage(1, f, proto.zarb.Validator.serializeBinaryToWriter);
   }
 };
-
 
 /**
  * repeated Validator validators = 1;
  * @return {!Array<!proto.zarb.Validator>}
  */
-proto.zarb.ValidatorsResponse.prototype.getValidatorsList = function() {
+proto.zarb.ValidatorsResponse.prototype.getValidatorsList = function () {
   return /** @type{!Array<!proto.zarb.Validator>} */ (
-    jspb.Message.getRepeatedWrapperField(this, proto.zarb.Validator, 1));
+    jspb.Message.getRepeatedWrapperField(this, proto.zarb.Validator, 1)
+  );
 };
-
 
 /**
  * @param {!Array<!proto.zarb.Validator>} value
  * @return {!proto.zarb.ValidatorsResponse} returns this
-*/
-proto.zarb.ValidatorsResponse.prototype.setValidatorsList = function(value) {
+ */
+proto.zarb.ValidatorsResponse.prototype.setValidatorsList = function (value) {
   return jspb.Message.setRepeatedWrapperField(this, 1, value);
 };
-
 
 /**
  * @param {!proto.zarb.Validator=} opt_value
  * @param {number=} opt_index
  * @return {!proto.zarb.Validator}
  */
-proto.zarb.ValidatorsResponse.prototype.addValidators = function(opt_value, opt_index) {
+proto.zarb.ValidatorsResponse.prototype.addValidators = function (opt_value, opt_index) {
   return jspb.Message.addToRepeatedWrapperField(this, 1, opt_value, proto.zarb.Validator, opt_index);
 };
-
 
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.zarb.ValidatorsResponse} returns this
  */
-proto.zarb.ValidatorsResponse.prototype.clearValidatorsList = function() {
+proto.zarb.ValidatorsResponse.prototype.clearValidatorsList = function () {
   return this.setValidatorsList([]);
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.ValidatorResponse.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.ValidatorResponse.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.ValidatorResponse} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.ValidatorResponse.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    validator: (f = msg.getValidator()) && proto.zarb.Validator.toObject(includeInstance, f)
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.ValidatorResponse.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.ValidatorResponse.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.ValidatorResponse} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.ValidatorResponse.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        validator: (f = msg.getValidator()) && proto.zarb.Validator.toObject(includeInstance, f),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.ValidatorResponse}
  */
-proto.zarb.ValidatorResponse.deserializeBinary = function(bytes) {
+proto.zarb.ValidatorResponse.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.ValidatorResponse;
+  var msg = new proto.zarb.ValidatorResponse();
   return proto.zarb.ValidatorResponse.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -1502,37 +1411,35 @@ proto.zarb.ValidatorResponse.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.ValidatorResponse}
  */
-proto.zarb.ValidatorResponse.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.ValidatorResponse.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = new proto.zarb.Validator;
-      reader.readMessage(value,proto.zarb.Validator.deserializeBinaryFromReader);
-      msg.setValidator(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = new proto.zarb.Validator();
+        reader.readMessage(value, proto.zarb.Validator.deserializeBinaryFromReader);
+        msg.setValidator(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.ValidatorResponse.prototype.serializeBinary = function() {
+proto.zarb.ValidatorResponse.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.ValidatorResponse.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -1541,111 +1448,96 @@ proto.zarb.ValidatorResponse.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.ValidatorResponse.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.ValidatorResponse.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getValidator();
   if (f != null) {
-    writer.writeMessage(
-      1,
-      f,
-      proto.zarb.Validator.serializeBinaryToWriter
-    );
+    writer.writeMessage(1, f, proto.zarb.Validator.serializeBinaryToWriter);
   }
 };
-
 
 /**
  * optional Validator validator = 1;
  * @return {?proto.zarb.Validator}
  */
-proto.zarb.ValidatorResponse.prototype.getValidator = function() {
-  return /** @type{?proto.zarb.Validator} */ (
-    jspb.Message.getWrapperField(this, proto.zarb.Validator, 1));
+proto.zarb.ValidatorResponse.prototype.getValidator = function () {
+  return /** @type{?proto.zarb.Validator} */ (jspb.Message.getWrapperField(this, proto.zarb.Validator, 1));
 };
-
 
 /**
  * @param {?proto.zarb.Validator|undefined} value
  * @return {!proto.zarb.ValidatorResponse} returns this
-*/
-proto.zarb.ValidatorResponse.prototype.setValidator = function(value) {
+ */
+proto.zarb.ValidatorResponse.prototype.setValidator = function (value) {
   return jspb.Message.setWrapperField(this, 1, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
  * @return {!proto.zarb.ValidatorResponse} returns this
  */
-proto.zarb.ValidatorResponse.prototype.clearValidator = function() {
+proto.zarb.ValidatorResponse.prototype.clearValidator = function () {
   return this.setValidator(undefined);
 };
-
 
 /**
  * Returns whether this field is set.
  * @return {boolean}
  */
-proto.zarb.ValidatorResponse.prototype.hasValidator = function() {
+proto.zarb.ValidatorResponse.prototype.hasValidator = function () {
   return jspb.Message.getField(this, 1) != null;
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.BlockRequest.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.BlockRequest.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.BlockRequest} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.BlockRequest.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    height: jspb.Message.getFieldWithDefault(msg, 1, 0),
-    verbosity: jspb.Message.getFieldWithDefault(msg, 2, 0)
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.BlockRequest.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.BlockRequest.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.BlockRequest} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.BlockRequest.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        height: jspb.Message.getFieldWithDefault(msg, 1, 0),
+        verbosity: jspb.Message.getFieldWithDefault(msg, 2, 0),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.BlockRequest}
  */
-proto.zarb.BlockRequest.deserializeBinary = function(bytes) {
+proto.zarb.BlockRequest.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.BlockRequest;
+  var msg = new proto.zarb.BlockRequest();
   return proto.zarb.BlockRequest.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -1654,40 +1546,38 @@ proto.zarb.BlockRequest.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.BlockRequest}
  */
-proto.zarb.BlockRequest.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.BlockRequest.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = /** @type {number} */ (reader.readInt64());
-      msg.setHeight(value);
-      break;
-    case 2:
-      var value = /** @type {!proto.zarb.BlockVerbosity} */ (reader.readEnum());
-      msg.setVerbosity(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = /** @type {number} */ (reader.readInt64());
+        msg.setHeight(value);
+        break;
+      case 2:
+        var value = /** @type {!proto.zarb.BlockVerbosity} */ (reader.readEnum());
+        msg.setVerbosity(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.BlockRequest.prototype.serializeBinary = function() {
+proto.zarb.BlockRequest.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.BlockRequest.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -1696,61 +1586,49 @@ proto.zarb.BlockRequest.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.BlockRequest.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.BlockRequest.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getHeight();
   if (f !== 0) {
-    writer.writeInt64(
-      1,
-      f
-    );
+    writer.writeInt64(1, f);
   }
   f = message.getVerbosity();
   if (f !== 0.0) {
-    writer.writeEnum(
-      2,
-      f
-    );
+    writer.writeEnum(2, f);
   }
 };
-
 
 /**
  * optional int64 height = 1;
  * @return {number}
  */
-proto.zarb.BlockRequest.prototype.getHeight = function() {
+proto.zarb.BlockRequest.prototype.getHeight = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 1, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.BlockRequest} returns this
  */
-proto.zarb.BlockRequest.prototype.setHeight = function(value) {
+proto.zarb.BlockRequest.prototype.setHeight = function (value) {
   return jspb.Message.setProto3IntField(this, 1, value);
 };
-
 
 /**
  * optional BlockVerbosity verbosity = 2;
  * @return {!proto.zarb.BlockVerbosity}
  */
-proto.zarb.BlockRequest.prototype.getVerbosity = function() {
+proto.zarb.BlockRequest.prototype.getVerbosity = function () {
   return /** @type {!proto.zarb.BlockVerbosity} */ (jspb.Message.getFieldWithDefault(this, 2, 0));
 };
-
 
 /**
  * @param {!proto.zarb.BlockVerbosity} value
  * @return {!proto.zarb.BlockRequest} returns this
  */
-proto.zarb.BlockRequest.prototype.setVerbosity = function(value) {
+proto.zarb.BlockRequest.prototype.setVerbosity = function (value) {
   return jspb.Message.setProto3EnumField(this, 2, value);
 };
-
-
 
 /**
  * List of repeated fields within this message type.
@@ -1759,63 +1637,62 @@ proto.zarb.BlockRequest.prototype.setVerbosity = function(value) {
  */
 proto.zarb.BlockResponse.repeatedFields_ = [5];
 
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.BlockResponse.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.BlockResponse.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.BlockResponse} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.BlockResponse.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    hash: jspb.Message.getFieldWithDefault(msg, 1, ""),
-    blockTime: (f = msg.getBlockTime()) && google_protobuf_timestamp_pb.Timestamp.toObject(includeInstance, f),
-    info: (f = msg.getInfo()) && proto.zarb.BlockInfo.toObject(includeInstance, f),
-    tranactionsList: jspb.Message.toObjectList(msg.getTranactionsList(),
-    proto.zarb.Transaction.toObject, includeInstance)
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.BlockResponse.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.BlockResponse.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.BlockResponse} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.BlockResponse.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        hash: jspb.Message.getFieldWithDefault(msg, 1, ''),
+        blockTime: (f = msg.getBlockTime()) && google_protobuf_timestamp_pb.Timestamp.toObject(includeInstance, f),
+        info: (f = msg.getInfo()) && proto.zarb.BlockInfo.toObject(includeInstance, f),
+        tranactionsList: jspb.Message.toObjectList(
+          msg.getTranactionsList(),
+          proto.zarb.Transaction.toObject,
+          includeInstance,
+        ),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.BlockResponse}
  */
-proto.zarb.BlockResponse.deserializeBinary = function(bytes) {
+proto.zarb.BlockResponse.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.BlockResponse;
+  var msg = new proto.zarb.BlockResponse();
   return proto.zarb.BlockResponse.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -1824,51 +1701,49 @@ proto.zarb.BlockResponse.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.BlockResponse}
  */
-proto.zarb.BlockResponse.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.BlockResponse.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setHash(value);
-      break;
-    case 2:
-      var value = new google_protobuf_timestamp_pb.Timestamp;
-      reader.readMessage(value,google_protobuf_timestamp_pb.Timestamp.deserializeBinaryFromReader);
-      msg.setBlockTime(value);
-      break;
-    case 3:
-      var value = new proto.zarb.BlockInfo;
-      reader.readMessage(value,proto.zarb.BlockInfo.deserializeBinaryFromReader);
-      msg.setInfo(value);
-      break;
-    case 5:
-      var value = new proto.zarb.Transaction;
-      reader.readMessage(value,proto.zarb.Transaction.deserializeBinaryFromReader);
-      msg.addTranactions(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setHash(value);
+        break;
+      case 2:
+        var value = new google_protobuf_timestamp_pb.Timestamp();
+        reader.readMessage(value, google_protobuf_timestamp_pb.Timestamp.deserializeBinaryFromReader);
+        msg.setBlockTime(value);
+        break;
+      case 3:
+        var value = new proto.zarb.BlockInfo();
+        reader.readMessage(value, proto.zarb.BlockInfo.deserializeBinaryFromReader);
+        msg.setInfo(value);
+        break;
+      case 5:
+        var value = new proto.zarb.Transaction();
+        reader.readMessage(value, proto.zarb.Transaction.deserializeBinaryFromReader);
+        msg.addTranactions(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.BlockResponse.prototype.serializeBinary = function() {
+proto.zarb.BlockResponse.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.BlockResponse.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -1877,226 +1752,192 @@ proto.zarb.BlockResponse.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.BlockResponse.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.BlockResponse.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getHash();
   if (f.length > 0) {
-    writer.writeString(
-      1,
-      f
-    );
+    writer.writeString(1, f);
   }
   f = message.getBlockTime();
   if (f != null) {
-    writer.writeMessage(
-      2,
-      f,
-      google_protobuf_timestamp_pb.Timestamp.serializeBinaryToWriter
-    );
+    writer.writeMessage(2, f, google_protobuf_timestamp_pb.Timestamp.serializeBinaryToWriter);
   }
   f = message.getInfo();
   if (f != null) {
-    writer.writeMessage(
-      3,
-      f,
-      proto.zarb.BlockInfo.serializeBinaryToWriter
-    );
+    writer.writeMessage(3, f, proto.zarb.BlockInfo.serializeBinaryToWriter);
   }
   f = message.getTranactionsList();
   if (f.length > 0) {
-    writer.writeRepeatedMessage(
-      5,
-      f,
-      proto.zarb.Transaction.serializeBinaryToWriter
-    );
+    writer.writeRepeatedMessage(5, f, proto.zarb.Transaction.serializeBinaryToWriter);
   }
 };
-
 
 /**
  * optional string hash = 1;
  * @return {string}
  */
-proto.zarb.BlockResponse.prototype.getHash = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
+proto.zarb.BlockResponse.prototype.getHash = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.BlockResponse} returns this
  */
-proto.zarb.BlockResponse.prototype.setHash = function(value) {
+proto.zarb.BlockResponse.prototype.setHash = function (value) {
   return jspb.Message.setProto3StringField(this, 1, value);
 };
-
 
 /**
  * optional google.protobuf.Timestamp block_time = 2;
  * @return {?proto.google.protobuf.Timestamp}
  */
-proto.zarb.BlockResponse.prototype.getBlockTime = function() {
+proto.zarb.BlockResponse.prototype.getBlockTime = function () {
   return /** @type{?proto.google.protobuf.Timestamp} */ (
-    jspb.Message.getWrapperField(this, google_protobuf_timestamp_pb.Timestamp, 2));
+    jspb.Message.getWrapperField(this, google_protobuf_timestamp_pb.Timestamp, 2)
+  );
 };
-
 
 /**
  * @param {?proto.google.protobuf.Timestamp|undefined} value
  * @return {!proto.zarb.BlockResponse} returns this
-*/
-proto.zarb.BlockResponse.prototype.setBlockTime = function(value) {
+ */
+proto.zarb.BlockResponse.prototype.setBlockTime = function (value) {
   return jspb.Message.setWrapperField(this, 2, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
  * @return {!proto.zarb.BlockResponse} returns this
  */
-proto.zarb.BlockResponse.prototype.clearBlockTime = function() {
+proto.zarb.BlockResponse.prototype.clearBlockTime = function () {
   return this.setBlockTime(undefined);
 };
-
 
 /**
  * Returns whether this field is set.
  * @return {boolean}
  */
-proto.zarb.BlockResponse.prototype.hasBlockTime = function() {
+proto.zarb.BlockResponse.prototype.hasBlockTime = function () {
   return jspb.Message.getField(this, 2) != null;
 };
-
 
 /**
  * optional BlockInfo info = 3;
  * @return {?proto.zarb.BlockInfo}
  */
-proto.zarb.BlockResponse.prototype.getInfo = function() {
-  return /** @type{?proto.zarb.BlockInfo} */ (
-    jspb.Message.getWrapperField(this, proto.zarb.BlockInfo, 3));
+proto.zarb.BlockResponse.prototype.getInfo = function () {
+  return /** @type{?proto.zarb.BlockInfo} */ (jspb.Message.getWrapperField(this, proto.zarb.BlockInfo, 3));
 };
-
 
 /**
  * @param {?proto.zarb.BlockInfo|undefined} value
  * @return {!proto.zarb.BlockResponse} returns this
-*/
-proto.zarb.BlockResponse.prototype.setInfo = function(value) {
+ */
+proto.zarb.BlockResponse.prototype.setInfo = function (value) {
   return jspb.Message.setWrapperField(this, 3, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
  * @return {!proto.zarb.BlockResponse} returns this
  */
-proto.zarb.BlockResponse.prototype.clearInfo = function() {
+proto.zarb.BlockResponse.prototype.clearInfo = function () {
   return this.setInfo(undefined);
 };
-
 
 /**
  * Returns whether this field is set.
  * @return {boolean}
  */
-proto.zarb.BlockResponse.prototype.hasInfo = function() {
+proto.zarb.BlockResponse.prototype.hasInfo = function () {
   return jspb.Message.getField(this, 3) != null;
 };
-
 
 /**
  * repeated Transaction tranactions = 5;
  * @return {!Array<!proto.zarb.Transaction>}
  */
-proto.zarb.BlockResponse.prototype.getTranactionsList = function() {
+proto.zarb.BlockResponse.prototype.getTranactionsList = function () {
   return /** @type{!Array<!proto.zarb.Transaction>} */ (
-    jspb.Message.getRepeatedWrapperField(this, proto.zarb.Transaction, 5));
+    jspb.Message.getRepeatedWrapperField(this, proto.zarb.Transaction, 5)
+  );
 };
-
 
 /**
  * @param {!Array<!proto.zarb.Transaction>} value
  * @return {!proto.zarb.BlockResponse} returns this
-*/
-proto.zarb.BlockResponse.prototype.setTranactionsList = function(value) {
+ */
+proto.zarb.BlockResponse.prototype.setTranactionsList = function (value) {
   return jspb.Message.setRepeatedWrapperField(this, 5, value);
 };
-
 
 /**
  * @param {!proto.zarb.Transaction=} opt_value
  * @param {number=} opt_index
  * @return {!proto.zarb.Transaction}
  */
-proto.zarb.BlockResponse.prototype.addTranactions = function(opt_value, opt_index) {
+proto.zarb.BlockResponse.prototype.addTranactions = function (opt_value, opt_index) {
   return jspb.Message.addToRepeatedWrapperField(this, 5, opt_value, proto.zarb.Transaction, opt_index);
 };
-
 
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.zarb.BlockResponse} returns this
  */
-proto.zarb.BlockResponse.prototype.clearTranactionsList = function() {
+proto.zarb.BlockResponse.prototype.clearTranactionsList = function () {
   return this.setTranactionsList([]);
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.BlockHeightRequest.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.BlockHeightRequest.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.BlockHeightRequest} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.BlockHeightRequest.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    hash: jspb.Message.getFieldWithDefault(msg, 1, "")
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.BlockHeightRequest.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.BlockHeightRequest.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.BlockHeightRequest} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.BlockHeightRequest.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        hash: jspb.Message.getFieldWithDefault(msg, 1, ''),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.BlockHeightRequest}
  */
-proto.zarb.BlockHeightRequest.deserializeBinary = function(bytes) {
+proto.zarb.BlockHeightRequest.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.BlockHeightRequest;
+  var msg = new proto.zarb.BlockHeightRequest();
   return proto.zarb.BlockHeightRequest.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -2105,36 +1946,34 @@ proto.zarb.BlockHeightRequest.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.BlockHeightRequest}
  */
-proto.zarb.BlockHeightRequest.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.BlockHeightRequest.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setHash(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setHash(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.BlockHeightRequest.prototype.serializeBinary = function() {
+proto.zarb.BlockHeightRequest.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.BlockHeightRequest.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -2143,90 +1982,79 @@ proto.zarb.BlockHeightRequest.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.BlockHeightRequest.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.BlockHeightRequest.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getHash();
   if (f.length > 0) {
-    writer.writeString(
-      1,
-      f
-    );
+    writer.writeString(1, f);
   }
 };
-
 
 /**
  * optional string hash = 1;
  * @return {string}
  */
-proto.zarb.BlockHeightRequest.prototype.getHash = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
+proto.zarb.BlockHeightRequest.prototype.getHash = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.BlockHeightRequest} returns this
  */
-proto.zarb.BlockHeightRequest.prototype.setHash = function(value) {
+proto.zarb.BlockHeightRequest.prototype.setHash = function (value) {
   return jspb.Message.setProto3StringField(this, 1, value);
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.BlockHeightResponse.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.BlockHeightResponse.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.BlockHeightResponse} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.BlockHeightResponse.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    height: jspb.Message.getFieldWithDefault(msg, 1, 0)
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.BlockHeightResponse.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.BlockHeightResponse.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.BlockHeightResponse} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.BlockHeightResponse.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        height: jspb.Message.getFieldWithDefault(msg, 1, 0),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.BlockHeightResponse}
  */
-proto.zarb.BlockHeightResponse.deserializeBinary = function(bytes) {
+proto.zarb.BlockHeightResponse.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.BlockHeightResponse;
+  var msg = new proto.zarb.BlockHeightResponse();
   return proto.zarb.BlockHeightResponse.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -2235,36 +2063,34 @@ proto.zarb.BlockHeightResponse.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.BlockHeightResponse}
  */
-proto.zarb.BlockHeightResponse.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.BlockHeightResponse.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = /** @type {number} */ (reader.readInt64());
-      msg.setHeight(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = /** @type {number} */ (reader.readInt64());
+        msg.setHeight(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.BlockHeightResponse.prototype.serializeBinary = function() {
+proto.zarb.BlockHeightResponse.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.BlockHeightResponse.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -2273,90 +2099,77 @@ proto.zarb.BlockHeightResponse.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.BlockHeightResponse.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.BlockHeightResponse.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getHeight();
   if (f !== 0) {
-    writer.writeInt64(
-      1,
-      f
-    );
+    writer.writeInt64(1, f);
   }
 };
-
 
 /**
  * optional int64 height = 1;
  * @return {number}
  */
-proto.zarb.BlockHeightResponse.prototype.getHeight = function() {
+proto.zarb.BlockHeightResponse.prototype.getHeight = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 1, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.BlockHeightResponse} returns this
  */
-proto.zarb.BlockHeightResponse.prototype.setHeight = function(value) {
+proto.zarb.BlockHeightResponse.prototype.setHeight = function (value) {
   return jspb.Message.setProto3IntField(this, 1, value);
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.BlockchainInfoRequest.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.BlockchainInfoRequest.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.BlockchainInfoRequest} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.BlockchainInfoRequest.toObject = function(includeInstance, msg) {
-  var f, obj = {
-
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.BlockchainInfoRequest.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.BlockchainInfoRequest.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.BlockchainInfoRequest} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.BlockchainInfoRequest.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {};
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.BlockchainInfoRequest}
  */
-proto.zarb.BlockchainInfoRequest.deserializeBinary = function(bytes) {
+proto.zarb.BlockchainInfoRequest.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.BlockchainInfoRequest;
+  var msg = new proto.zarb.BlockchainInfoRequest();
   return proto.zarb.BlockchainInfoRequest.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -2365,32 +2178,30 @@ proto.zarb.BlockchainInfoRequest.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.BlockchainInfoRequest}
  */
-proto.zarb.BlockchainInfoRequest.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.BlockchainInfoRequest.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    default:
-      reader.skipField();
-      break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.BlockchainInfoRequest.prototype.serializeBinary = function() {
+proto.zarb.BlockchainInfoRequest.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.BlockchainInfoRequest.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -2399,66 +2210,60 @@ proto.zarb.BlockchainInfoRequest.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.BlockchainInfoRequest.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.BlockchainInfoRequest.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.BlockchainInfoResponse.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.BlockchainInfoResponse.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.BlockchainInfoResponse} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.BlockchainInfoResponse.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    height: jspb.Message.getFieldWithDefault(msg, 1, 0),
-    lastBlockHash: jspb.Message.getFieldWithDefault(msg, 2, "")
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.BlockchainInfoResponse.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.BlockchainInfoResponse.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.BlockchainInfoResponse} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.BlockchainInfoResponse.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        height: jspb.Message.getFieldWithDefault(msg, 1, 0),
+        lastBlockHash: jspb.Message.getFieldWithDefault(msg, 2, ''),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.BlockchainInfoResponse}
  */
-proto.zarb.BlockchainInfoResponse.deserializeBinary = function(bytes) {
+proto.zarb.BlockchainInfoResponse.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.BlockchainInfoResponse;
+  var msg = new proto.zarb.BlockchainInfoResponse();
   return proto.zarb.BlockchainInfoResponse.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -2467,40 +2272,38 @@ proto.zarb.BlockchainInfoResponse.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.BlockchainInfoResponse}
  */
-proto.zarb.BlockchainInfoResponse.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.BlockchainInfoResponse.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = /** @type {number} */ (reader.readInt64());
-      msg.setHeight(value);
-      break;
-    case 2:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setLastBlockHash(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = /** @type {number} */ (reader.readInt64());
+        msg.setHeight(value);
+        break;
+      case 2:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setLastBlockHash(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.BlockchainInfoResponse.prototype.serializeBinary = function() {
+proto.zarb.BlockchainInfoResponse.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.BlockchainInfoResponse.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -2509,115 +2312,97 @@ proto.zarb.BlockchainInfoResponse.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.BlockchainInfoResponse.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.BlockchainInfoResponse.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getHeight();
   if (f !== 0) {
-    writer.writeInt64(
-      1,
-      f
-    );
+    writer.writeInt64(1, f);
   }
   f = message.getLastBlockHash();
   if (f.length > 0) {
-    writer.writeString(
-      2,
-      f
-    );
+    writer.writeString(2, f);
   }
 };
-
 
 /**
  * optional int64 height = 1;
  * @return {number}
  */
-proto.zarb.BlockchainInfoResponse.prototype.getHeight = function() {
+proto.zarb.BlockchainInfoResponse.prototype.getHeight = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 1, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.BlockchainInfoResponse} returns this
  */
-proto.zarb.BlockchainInfoResponse.prototype.setHeight = function(value) {
+proto.zarb.BlockchainInfoResponse.prototype.setHeight = function (value) {
   return jspb.Message.setProto3IntField(this, 1, value);
 };
-
 
 /**
  * optional string last_block_hash = 2;
  * @return {string}
  */
-proto.zarb.BlockchainInfoResponse.prototype.getLastBlockHash = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 2, ""));
+proto.zarb.BlockchainInfoResponse.prototype.getLastBlockHash = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 2, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.BlockchainInfoResponse} returns this
  */
-proto.zarb.BlockchainInfoResponse.prototype.setLastBlockHash = function(value) {
+proto.zarb.BlockchainInfoResponse.prototype.setLastBlockHash = function (value) {
   return jspb.Message.setProto3StringField(this, 2, value);
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.NetworkInfoRequest.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.NetworkInfoRequest.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.NetworkInfoRequest} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.NetworkInfoRequest.toObject = function(includeInstance, msg) {
-  var f, obj = {
-
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.NetworkInfoRequest.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.NetworkInfoRequest.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.NetworkInfoRequest} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.NetworkInfoRequest.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {};
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.NetworkInfoRequest}
  */
-proto.zarb.NetworkInfoRequest.deserializeBinary = function(bytes) {
+proto.zarb.NetworkInfoRequest.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.NetworkInfoRequest;
+  var msg = new proto.zarb.NetworkInfoRequest();
   return proto.zarb.NetworkInfoRequest.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -2626,32 +2411,30 @@ proto.zarb.NetworkInfoRequest.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.NetworkInfoRequest}
  */
-proto.zarb.NetworkInfoRequest.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.NetworkInfoRequest.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    default:
-      reader.skipField();
-      break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.NetworkInfoRequest.prototype.serializeBinary = function() {
+proto.zarb.NetworkInfoRequest.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.NetworkInfoRequest.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -2660,11 +2443,9 @@ proto.zarb.NetworkInfoRequest.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.NetworkInfoRequest.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.NetworkInfoRequest.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
 };
-
-
 
 /**
  * List of repeated fields within this message type.
@@ -2673,61 +2454,56 @@ proto.zarb.NetworkInfoRequest.serializeBinaryToWriter = function(message, writer
  */
 proto.zarb.NetworkInfoResponse.repeatedFields_ = [2];
 
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.NetworkInfoResponse.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.NetworkInfoResponse.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.NetworkInfoResponse} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.NetworkInfoResponse.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    peerId: jspb.Message.getFieldWithDefault(msg, 1, ""),
-    peersList: jspb.Message.toObjectList(msg.getPeersList(),
-    proto.zarb.Peer.toObject, includeInstance)
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.NetworkInfoResponse.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.NetworkInfoResponse.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.NetworkInfoResponse} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.NetworkInfoResponse.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        peerId: jspb.Message.getFieldWithDefault(msg, 1, ''),
+        peersList: jspb.Message.toObjectList(msg.getPeersList(), proto.zarb.Peer.toObject, includeInstance),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.NetworkInfoResponse}
  */
-proto.zarb.NetworkInfoResponse.deserializeBinary = function(bytes) {
+proto.zarb.NetworkInfoResponse.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.NetworkInfoResponse;
+  var msg = new proto.zarb.NetworkInfoResponse();
   return proto.zarb.NetworkInfoResponse.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -2736,41 +2512,39 @@ proto.zarb.NetworkInfoResponse.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.NetworkInfoResponse}
  */
-proto.zarb.NetworkInfoResponse.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.NetworkInfoResponse.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setPeerId(value);
-      break;
-    case 2:
-      var value = new proto.zarb.Peer;
-      reader.readMessage(value,proto.zarb.Peer.deserializeBinaryFromReader);
-      msg.addPeers(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setPeerId(value);
+        break;
+      case 2:
+        var value = new proto.zarb.Peer();
+        reader.readMessage(value, proto.zarb.Peer.deserializeBinaryFromReader);
+        msg.addPeers(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.NetworkInfoResponse.prototype.serializeBinary = function() {
+proto.zarb.NetworkInfoResponse.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.NetworkInfoResponse.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -2779,136 +2553,116 @@ proto.zarb.NetworkInfoResponse.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.NetworkInfoResponse.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.NetworkInfoResponse.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getPeerId();
   if (f.length > 0) {
-    writer.writeString(
-      1,
-      f
-    );
+    writer.writeString(1, f);
   }
   f = message.getPeersList();
   if (f.length > 0) {
-    writer.writeRepeatedMessage(
-      2,
-      f,
-      proto.zarb.Peer.serializeBinaryToWriter
-    );
+    writer.writeRepeatedMessage(2, f, proto.zarb.Peer.serializeBinaryToWriter);
   }
 };
-
 
 /**
  * optional string peer_id = 1;
  * @return {string}
  */
-proto.zarb.NetworkInfoResponse.prototype.getPeerId = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
+proto.zarb.NetworkInfoResponse.prototype.getPeerId = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.NetworkInfoResponse} returns this
  */
-proto.zarb.NetworkInfoResponse.prototype.setPeerId = function(value) {
+proto.zarb.NetworkInfoResponse.prototype.setPeerId = function (value) {
   return jspb.Message.setProto3StringField(this, 1, value);
 };
-
 
 /**
  * repeated Peer peers = 2;
  * @return {!Array<!proto.zarb.Peer>}
  */
-proto.zarb.NetworkInfoResponse.prototype.getPeersList = function() {
-  return /** @type{!Array<!proto.zarb.Peer>} */ (
-    jspb.Message.getRepeatedWrapperField(this, proto.zarb.Peer, 2));
+proto.zarb.NetworkInfoResponse.prototype.getPeersList = function () {
+  return /** @type{!Array<!proto.zarb.Peer>} */ (jspb.Message.getRepeatedWrapperField(this, proto.zarb.Peer, 2));
 };
-
 
 /**
  * @param {!Array<!proto.zarb.Peer>} value
  * @return {!proto.zarb.NetworkInfoResponse} returns this
-*/
-proto.zarb.NetworkInfoResponse.prototype.setPeersList = function(value) {
+ */
+proto.zarb.NetworkInfoResponse.prototype.setPeersList = function (value) {
   return jspb.Message.setRepeatedWrapperField(this, 2, value);
 };
-
 
 /**
  * @param {!proto.zarb.Peer=} opt_value
  * @param {number=} opt_index
  * @return {!proto.zarb.Peer}
  */
-proto.zarb.NetworkInfoResponse.prototype.addPeers = function(opt_value, opt_index) {
+proto.zarb.NetworkInfoResponse.prototype.addPeers = function (opt_value, opt_index) {
   return jspb.Message.addToRepeatedWrapperField(this, 2, opt_value, proto.zarb.Peer, opt_index);
 };
-
 
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.zarb.NetworkInfoResponse} returns this
  */
-proto.zarb.NetworkInfoResponse.prototype.clearPeersList = function() {
+proto.zarb.NetworkInfoResponse.prototype.clearPeersList = function () {
   return this.setPeersList([]);
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.TransactionRequest.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.TransactionRequest.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.TransactionRequest} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.TransactionRequest.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    id: jspb.Message.getFieldWithDefault(msg, 1, "")
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.TransactionRequest.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.TransactionRequest.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.TransactionRequest} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.TransactionRequest.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        id: jspb.Message.getFieldWithDefault(msg, 1, ''),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.TransactionRequest}
  */
-proto.zarb.TransactionRequest.deserializeBinary = function(bytes) {
+proto.zarb.TransactionRequest.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.TransactionRequest;
+  var msg = new proto.zarb.TransactionRequest();
   return proto.zarb.TransactionRequest.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -2917,36 +2671,34 @@ proto.zarb.TransactionRequest.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.TransactionRequest}
  */
-proto.zarb.TransactionRequest.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.TransactionRequest.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setId(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setId(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.TransactionRequest.prototype.serializeBinary = function() {
+proto.zarb.TransactionRequest.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.TransactionRequest.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -2955,90 +2707,79 @@ proto.zarb.TransactionRequest.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.TransactionRequest.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.TransactionRequest.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getId();
   if (f.length > 0) {
-    writer.writeString(
-      1,
-      f
-    );
+    writer.writeString(1, f);
   }
 };
-
 
 /**
  * optional string id = 1;
  * @return {string}
  */
-proto.zarb.TransactionRequest.prototype.getId = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
+proto.zarb.TransactionRequest.prototype.getId = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.TransactionRequest} returns this
  */
-proto.zarb.TransactionRequest.prototype.setId = function(value) {
+proto.zarb.TransactionRequest.prototype.setId = function (value) {
   return jspb.Message.setProto3StringField(this, 1, value);
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.TransactionResponse.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.TransactionResponse.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.TransactionResponse} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.TransactionResponse.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    tranaction: (f = msg.getTranaction()) && proto.zarb.Transaction.toObject(includeInstance, f)
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.TransactionResponse.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.TransactionResponse.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.TransactionResponse} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.TransactionResponse.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        tranaction: (f = msg.getTranaction()) && proto.zarb.Transaction.toObject(includeInstance, f),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.TransactionResponse}
  */
-proto.zarb.TransactionResponse.deserializeBinary = function(bytes) {
+proto.zarb.TransactionResponse.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.TransactionResponse;
+  var msg = new proto.zarb.TransactionResponse();
   return proto.zarb.TransactionResponse.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -3047,37 +2788,35 @@ proto.zarb.TransactionResponse.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.TransactionResponse}
  */
-proto.zarb.TransactionResponse.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.TransactionResponse.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = new proto.zarb.Transaction;
-      reader.readMessage(value,proto.zarb.Transaction.deserializeBinaryFromReader);
-      msg.setTranaction(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = new proto.zarb.Transaction();
+        reader.readMessage(value, proto.zarb.Transaction.deserializeBinaryFromReader);
+        msg.setTranaction(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.TransactionResponse.prototype.serializeBinary = function() {
+proto.zarb.TransactionResponse.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.TransactionResponse.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -3086,110 +2825,95 @@ proto.zarb.TransactionResponse.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.TransactionResponse.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.TransactionResponse.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getTranaction();
   if (f != null) {
-    writer.writeMessage(
-      1,
-      f,
-      proto.zarb.Transaction.serializeBinaryToWriter
-    );
+    writer.writeMessage(1, f, proto.zarb.Transaction.serializeBinaryToWriter);
   }
 };
-
 
 /**
  * optional Transaction tranaction = 1;
  * @return {?proto.zarb.Transaction}
  */
-proto.zarb.TransactionResponse.prototype.getTranaction = function() {
-  return /** @type{?proto.zarb.Transaction} */ (
-    jspb.Message.getWrapperField(this, proto.zarb.Transaction, 1));
+proto.zarb.TransactionResponse.prototype.getTranaction = function () {
+  return /** @type{?proto.zarb.Transaction} */ (jspb.Message.getWrapperField(this, proto.zarb.Transaction, 1));
 };
-
 
 /**
  * @param {?proto.zarb.Transaction|undefined} value
  * @return {!proto.zarb.TransactionResponse} returns this
-*/
-proto.zarb.TransactionResponse.prototype.setTranaction = function(value) {
+ */
+proto.zarb.TransactionResponse.prototype.setTranaction = function (value) {
   return jspb.Message.setWrapperField(this, 1, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
  * @return {!proto.zarb.TransactionResponse} returns this
  */
-proto.zarb.TransactionResponse.prototype.clearTranaction = function() {
+proto.zarb.TransactionResponse.prototype.clearTranaction = function () {
   return this.setTranaction(undefined);
 };
-
 
 /**
  * Returns whether this field is set.
  * @return {boolean}
  */
-proto.zarb.TransactionResponse.prototype.hasTranaction = function() {
+proto.zarb.TransactionResponse.prototype.hasTranaction = function () {
   return jspb.Message.getField(this, 1) != null;
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.SendRawTransactionRequest.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.SendRawTransactionRequest.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.SendRawTransactionRequest} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.SendRawTransactionRequest.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    data: jspb.Message.getFieldWithDefault(msg, 1, "")
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.SendRawTransactionRequest.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.SendRawTransactionRequest.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.SendRawTransactionRequest} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.SendRawTransactionRequest.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        data: jspb.Message.getFieldWithDefault(msg, 1, ''),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.SendRawTransactionRequest}
  */
-proto.zarb.SendRawTransactionRequest.deserializeBinary = function(bytes) {
+proto.zarb.SendRawTransactionRequest.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.SendRawTransactionRequest;
+  var msg = new proto.zarb.SendRawTransactionRequest();
   return proto.zarb.SendRawTransactionRequest.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -3198,36 +2922,34 @@ proto.zarb.SendRawTransactionRequest.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.SendRawTransactionRequest}
  */
-proto.zarb.SendRawTransactionRequest.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.SendRawTransactionRequest.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setData(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setData(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.SendRawTransactionRequest.prototype.serializeBinary = function() {
+proto.zarb.SendRawTransactionRequest.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.SendRawTransactionRequest.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -3236,90 +2958,79 @@ proto.zarb.SendRawTransactionRequest.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.SendRawTransactionRequest.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.SendRawTransactionRequest.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getData();
   if (f.length > 0) {
-    writer.writeString(
-      1,
-      f
-    );
+    writer.writeString(1, f);
   }
 };
-
 
 /**
  * optional string data = 1;
  * @return {string}
  */
-proto.zarb.SendRawTransactionRequest.prototype.getData = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
+proto.zarb.SendRawTransactionRequest.prototype.getData = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.SendRawTransactionRequest} returns this
  */
-proto.zarb.SendRawTransactionRequest.prototype.setData = function(value) {
+proto.zarb.SendRawTransactionRequest.prototype.setData = function (value) {
   return jspb.Message.setProto3StringField(this, 1, value);
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.SendRawTransactionResponse.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.SendRawTransactionResponse.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.SendRawTransactionResponse} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.SendRawTransactionResponse.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    id: jspb.Message.getFieldWithDefault(msg, 2, "")
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.SendRawTransactionResponse.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.SendRawTransactionResponse.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.SendRawTransactionResponse} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.SendRawTransactionResponse.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        id: jspb.Message.getFieldWithDefault(msg, 2, ''),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.SendRawTransactionResponse}
  */
-proto.zarb.SendRawTransactionResponse.deserializeBinary = function(bytes) {
+proto.zarb.SendRawTransactionResponse.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.SendRawTransactionResponse;
+  var msg = new proto.zarb.SendRawTransactionResponse();
   return proto.zarb.SendRawTransactionResponse.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -3328,36 +3039,34 @@ proto.zarb.SendRawTransactionResponse.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.SendRawTransactionResponse}
  */
-proto.zarb.SendRawTransactionResponse.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.SendRawTransactionResponse.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 2:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setId(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 2:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setId(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.SendRawTransactionResponse.prototype.serializeBinary = function() {
+proto.zarb.SendRawTransactionResponse.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.SendRawTransactionResponse.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -3366,96 +3075,85 @@ proto.zarb.SendRawTransactionResponse.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.SendRawTransactionResponse.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.SendRawTransactionResponse.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getId();
   if (f.length > 0) {
-    writer.writeString(
-      2,
-      f
-    );
+    writer.writeString(2, f);
   }
 };
-
 
 /**
  * optional string id = 2;
  * @return {string}
  */
-proto.zarb.SendRawTransactionResponse.prototype.getId = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 2, ""));
+proto.zarb.SendRawTransactionResponse.prototype.getId = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 2, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.SendRawTransactionResponse} returns this
  */
-proto.zarb.SendRawTransactionResponse.prototype.setId = function(value) {
+proto.zarb.SendRawTransactionResponse.prototype.setId = function (value) {
   return jspb.Message.setProto3StringField(this, 2, value);
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.Validator.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.Validator.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.Validator} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.Validator.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    publicKey: jspb.Message.getFieldWithDefault(msg, 1, ""),
-    number: jspb.Message.getFieldWithDefault(msg, 2, 0),
-    sequence: jspb.Message.getFieldWithDefault(msg, 3, 0),
-    stake: jspb.Message.getFieldWithDefault(msg, 4, 0),
-    lastBondingHeight: jspb.Message.getFieldWithDefault(msg, 5, 0),
-    lastJoinedHeight: jspb.Message.getFieldWithDefault(msg, 6, 0),
-    address: jspb.Message.getFieldWithDefault(msg, 7, "")
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.Validator.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.Validator.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.Validator} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.Validator.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        publicKey: jspb.Message.getFieldWithDefault(msg, 1, ''),
+        number: jspb.Message.getFieldWithDefault(msg, 2, 0),
+        sequence: jspb.Message.getFieldWithDefault(msg, 3, 0),
+        stake: jspb.Message.getFieldWithDefault(msg, 4, 0),
+        lastBondingHeight: jspb.Message.getFieldWithDefault(msg, 5, 0),
+        lastJoinedHeight: jspb.Message.getFieldWithDefault(msg, 6, 0),
+        address: jspb.Message.getFieldWithDefault(msg, 7, ''),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.Validator}
  */
-proto.zarb.Validator.deserializeBinary = function(bytes) {
+proto.zarb.Validator.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.Validator;
+  var msg = new proto.zarb.Validator();
   return proto.zarb.Validator.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -3464,60 +3162,58 @@ proto.zarb.Validator.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.Validator}
  */
-proto.zarb.Validator.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.Validator.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setPublicKey(value);
-      break;
-    case 2:
-      var value = /** @type {number} */ (reader.readInt32());
-      msg.setNumber(value);
-      break;
-    case 3:
-      var value = /** @type {number} */ (reader.readInt32());
-      msg.setSequence(value);
-      break;
-    case 4:
-      var value = /** @type {number} */ (reader.readInt64());
-      msg.setStake(value);
-      break;
-    case 5:
-      var value = /** @type {number} */ (reader.readInt32());
-      msg.setLastBondingHeight(value);
-      break;
-    case 6:
-      var value = /** @type {number} */ (reader.readInt32());
-      msg.setLastJoinedHeight(value);
-      break;
-    case 7:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setAddress(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setPublicKey(value);
+        break;
+      case 2:
+        var value = /** @type {number} */ (reader.readInt32());
+        msg.setNumber(value);
+        break;
+      case 3:
+        var value = /** @type {number} */ (reader.readInt32());
+        msg.setSequence(value);
+        break;
+      case 4:
+        var value = /** @type {number} */ (reader.readInt64());
+        msg.setStake(value);
+        break;
+      case 5:
+        var value = /** @type {number} */ (reader.readInt32());
+        msg.setLastBondingHeight(value);
+        break;
+      case 6:
+        var value = /** @type {number} */ (reader.readInt32());
+        msg.setLastJoinedHeight(value);
+        break;
+      case 7:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setAddress(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.Validator.prototype.serializeBinary = function() {
+proto.zarb.Validator.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.Validator.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -3526,248 +3222,207 @@ proto.zarb.Validator.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.Validator.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.Validator.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getPublicKey();
   if (f.length > 0) {
-    writer.writeString(
-      1,
-      f
-    );
+    writer.writeString(1, f);
   }
   f = message.getNumber();
   if (f !== 0) {
-    writer.writeInt32(
-      2,
-      f
-    );
+    writer.writeInt32(2, f);
   }
   f = message.getSequence();
   if (f !== 0) {
-    writer.writeInt32(
-      3,
-      f
-    );
+    writer.writeInt32(3, f);
   }
   f = message.getStake();
   if (f !== 0) {
-    writer.writeInt64(
-      4,
-      f
-    );
+    writer.writeInt64(4, f);
   }
   f = message.getLastBondingHeight();
   if (f !== 0) {
-    writer.writeInt32(
-      5,
-      f
-    );
+    writer.writeInt32(5, f);
   }
   f = message.getLastJoinedHeight();
   if (f !== 0) {
-    writer.writeInt32(
-      6,
-      f
-    );
+    writer.writeInt32(6, f);
   }
   f = message.getAddress();
   if (f.length > 0) {
-    writer.writeString(
-      7,
-      f
-    );
+    writer.writeString(7, f);
   }
 };
-
 
 /**
  * optional string public_key = 1;
  * @return {string}
  */
-proto.zarb.Validator.prototype.getPublicKey = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
+proto.zarb.Validator.prototype.getPublicKey = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.Validator} returns this
  */
-proto.zarb.Validator.prototype.setPublicKey = function(value) {
+proto.zarb.Validator.prototype.setPublicKey = function (value) {
   return jspb.Message.setProto3StringField(this, 1, value);
 };
-
 
 /**
  * optional int32 number = 2;
  * @return {number}
  */
-proto.zarb.Validator.prototype.getNumber = function() {
+proto.zarb.Validator.prototype.getNumber = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 2, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.Validator} returns this
  */
-proto.zarb.Validator.prototype.setNumber = function(value) {
+proto.zarb.Validator.prototype.setNumber = function (value) {
   return jspb.Message.setProto3IntField(this, 2, value);
 };
-
 
 /**
  * optional int32 sequence = 3;
  * @return {number}
  */
-proto.zarb.Validator.prototype.getSequence = function() {
+proto.zarb.Validator.prototype.getSequence = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 3, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.Validator} returns this
  */
-proto.zarb.Validator.prototype.setSequence = function(value) {
+proto.zarb.Validator.prototype.setSequence = function (value) {
   return jspb.Message.setProto3IntField(this, 3, value);
 };
-
 
 /**
  * optional int64 stake = 4;
  * @return {number}
  */
-proto.zarb.Validator.prototype.getStake = function() {
+proto.zarb.Validator.prototype.getStake = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 4, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.Validator} returns this
  */
-proto.zarb.Validator.prototype.setStake = function(value) {
+proto.zarb.Validator.prototype.setStake = function (value) {
   return jspb.Message.setProto3IntField(this, 4, value);
 };
-
 
 /**
  * optional int32 last_bonding_height = 5;
  * @return {number}
  */
-proto.zarb.Validator.prototype.getLastBondingHeight = function() {
+proto.zarb.Validator.prototype.getLastBondingHeight = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 5, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.Validator} returns this
  */
-proto.zarb.Validator.prototype.setLastBondingHeight = function(value) {
+proto.zarb.Validator.prototype.setLastBondingHeight = function (value) {
   return jspb.Message.setProto3IntField(this, 5, value);
 };
-
 
 /**
  * optional int32 last_joined_height = 6;
  * @return {number}
  */
-proto.zarb.Validator.prototype.getLastJoinedHeight = function() {
+proto.zarb.Validator.prototype.getLastJoinedHeight = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 6, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.Validator} returns this
  */
-proto.zarb.Validator.prototype.setLastJoinedHeight = function(value) {
+proto.zarb.Validator.prototype.setLastJoinedHeight = function (value) {
   return jspb.Message.setProto3IntField(this, 6, value);
 };
-
 
 /**
  * optional string address = 7;
  * @return {string}
  */
-proto.zarb.Validator.prototype.getAddress = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 7, ""));
+proto.zarb.Validator.prototype.getAddress = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 7, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.Validator} returns this
  */
-proto.zarb.Validator.prototype.setAddress = function(value) {
+proto.zarb.Validator.prototype.setAddress = function (value) {
   return jspb.Message.setProto3StringField(this, 7, value);
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.Peer.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.Peer.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.Peer} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.Peer.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    moniker: jspb.Message.getFieldWithDefault(msg, 1, ""),
-    nodeVersion: msg.getNodeVersion_asB64(),
-    peerId: jspb.Message.getFieldWithDefault(msg, 3, ""),
-    publicKey: jspb.Message.getFieldWithDefault(msg, 4, ""),
-    initialBlockDownload: jspb.Message.getBooleanFieldWithDefault(msg, 5, false),
-    height: jspb.Message.getFieldWithDefault(msg, 6, 0),
-    receivedMessages: jspb.Message.getFieldWithDefault(msg, 7, 0),
-    invalidMessages: jspb.Message.getFieldWithDefault(msg, 8, 0),
-    receivedBytes: jspb.Message.getFieldWithDefault(msg, 9, 0)
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.Peer.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.Peer.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.Peer} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.Peer.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        moniker: jspb.Message.getFieldWithDefault(msg, 1, ''),
+        nodeVersion: msg.getNodeVersion_asB64(),
+        peerId: jspb.Message.getFieldWithDefault(msg, 3, ''),
+        publicKey: jspb.Message.getFieldWithDefault(msg, 4, ''),
+        initialBlockDownload: jspb.Message.getBooleanFieldWithDefault(msg, 5, false),
+        height: jspb.Message.getFieldWithDefault(msg, 6, 0),
+        receivedMessages: jspb.Message.getFieldWithDefault(msg, 7, 0),
+        invalidMessages: jspb.Message.getFieldWithDefault(msg, 8, 0),
+        receivedBytes: jspb.Message.getFieldWithDefault(msg, 9, 0),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.Peer}
  */
-proto.zarb.Peer.deserializeBinary = function(bytes) {
+proto.zarb.Peer.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.Peer;
+  var msg = new proto.zarb.Peer();
   return proto.zarb.Peer.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -3776,68 +3431,66 @@ proto.zarb.Peer.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.Peer}
  */
-proto.zarb.Peer.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.Peer.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setMoniker(value);
-      break;
-    case 2:
-      var value = /** @type {!Uint8Array} */ (reader.readBytes());
-      msg.setNodeVersion(value);
-      break;
-    case 3:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setPeerId(value);
-      break;
-    case 4:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setPublicKey(value);
-      break;
-    case 5:
-      var value = /** @type {boolean} */ (reader.readBool());
-      msg.setInitialBlockDownload(value);
-      break;
-    case 6:
-      var value = /** @type {number} */ (reader.readInt32());
-      msg.setHeight(value);
-      break;
-    case 7:
-      var value = /** @type {number} */ (reader.readInt32());
-      msg.setReceivedMessages(value);
-      break;
-    case 8:
-      var value = /** @type {number} */ (reader.readInt32());
-      msg.setInvalidMessages(value);
-      break;
-    case 9:
-      var value = /** @type {number} */ (reader.readInt32());
-      msg.setReceivedBytes(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setMoniker(value);
+        break;
+      case 2:
+        var value = /** @type {!Uint8Array} */ (reader.readBytes());
+        msg.setNodeVersion(value);
+        break;
+      case 3:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setPeerId(value);
+        break;
+      case 4:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setPublicKey(value);
+        break;
+      case 5:
+        var value = /** @type {boolean} */ (reader.readBool());
+        msg.setInitialBlockDownload(value);
+        break;
+      case 6:
+        var value = /** @type {number} */ (reader.readInt32());
+        msg.setHeight(value);
+        break;
+      case 7:
+        var value = /** @type {number} */ (reader.readInt32());
+        msg.setReceivedMessages(value);
+        break;
+      case 8:
+        var value = /** @type {number} */ (reader.readInt32());
+        msg.setInvalidMessages(value);
+        break;
+      case 9:
+        var value = /** @type {number} */ (reader.readInt32());
+        msg.setReceivedBytes(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.Peer.prototype.serializeBinary = function() {
+proto.zarb.Peer.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.Peer.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -3846,111 +3499,78 @@ proto.zarb.Peer.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.Peer.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.Peer.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getMoniker();
   if (f.length > 0) {
-    writer.writeString(
-      1,
-      f
-    );
+    writer.writeString(1, f);
   }
   f = message.getNodeVersion_asU8();
   if (f.length > 0) {
-    writer.writeBytes(
-      2,
-      f
-    );
+    writer.writeBytes(2, f);
   }
   f = message.getPeerId();
   if (f.length > 0) {
-    writer.writeString(
-      3,
-      f
-    );
+    writer.writeString(3, f);
   }
   f = message.getPublicKey();
   if (f.length > 0) {
-    writer.writeString(
-      4,
-      f
-    );
+    writer.writeString(4, f);
   }
   f = message.getInitialBlockDownload();
   if (f) {
-    writer.writeBool(
-      5,
-      f
-    );
+    writer.writeBool(5, f);
   }
   f = message.getHeight();
   if (f !== 0) {
-    writer.writeInt32(
-      6,
-      f
-    );
+    writer.writeInt32(6, f);
   }
   f = message.getReceivedMessages();
   if (f !== 0) {
-    writer.writeInt32(
-      7,
-      f
-    );
+    writer.writeInt32(7, f);
   }
   f = message.getInvalidMessages();
   if (f !== 0) {
-    writer.writeInt32(
-      8,
-      f
-    );
+    writer.writeInt32(8, f);
   }
   f = message.getReceivedBytes();
   if (f !== 0) {
-    writer.writeInt32(
-      9,
-      f
-    );
+    writer.writeInt32(9, f);
   }
 };
-
 
 /**
  * optional string moniker = 1;
  * @return {string}
  */
-proto.zarb.Peer.prototype.getMoniker = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
+proto.zarb.Peer.prototype.getMoniker = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.Peer} returns this
  */
-proto.zarb.Peer.prototype.setMoniker = function(value) {
+proto.zarb.Peer.prototype.setMoniker = function (value) {
   return jspb.Message.setProto3StringField(this, 1, value);
 };
-
 
 /**
  * optional bytes node_version = 2;
  * @return {!(string|Uint8Array)}
  */
-proto.zarb.Peer.prototype.getNodeVersion = function() {
-  return /** @type {!(string|Uint8Array)} */ (jspb.Message.getFieldWithDefault(this, 2, ""));
+proto.zarb.Peer.prototype.getNodeVersion = function () {
+  return /** @type {!(string|Uint8Array)} */ (jspb.Message.getFieldWithDefault(this, 2, ''));
 };
-
 
 /**
  * optional bytes node_version = 2;
  * This is a type-conversion wrapper around `getNodeVersion()`
  * @return {string}
  */
-proto.zarb.Peer.prototype.getNodeVersion_asB64 = function() {
-  return /** @type {string} */ (jspb.Message.bytesAsB64(
-      this.getNodeVersion()));
+proto.zarb.Peer.prototype.getNodeVersion_asB64 = function () {
+  return /** @type {string} */ (jspb.Message.bytesAsB64(this.getNodeVersion()));
 };
-
 
 /**
  * optional bytes node_version = 2;
@@ -3959,204 +3579,182 @@ proto.zarb.Peer.prototype.getNodeVersion_asB64 = function() {
  * This is a type-conversion wrapper around `getNodeVersion()`
  * @return {!Uint8Array}
  */
-proto.zarb.Peer.prototype.getNodeVersion_asU8 = function() {
-  return /** @type {!Uint8Array} */ (jspb.Message.bytesAsU8(
-      this.getNodeVersion()));
+proto.zarb.Peer.prototype.getNodeVersion_asU8 = function () {
+  return /** @type {!Uint8Array} */ (jspb.Message.bytesAsU8(this.getNodeVersion()));
 };
-
 
 /**
  * @param {!(string|Uint8Array)} value
  * @return {!proto.zarb.Peer} returns this
  */
-proto.zarb.Peer.prototype.setNodeVersion = function(value) {
+proto.zarb.Peer.prototype.setNodeVersion = function (value) {
   return jspb.Message.setProto3BytesField(this, 2, value);
 };
-
 
 /**
  * optional string peer_id = 3;
  * @return {string}
  */
-proto.zarb.Peer.prototype.getPeerId = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 3, ""));
+proto.zarb.Peer.prototype.getPeerId = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 3, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.Peer} returns this
  */
-proto.zarb.Peer.prototype.setPeerId = function(value) {
+proto.zarb.Peer.prototype.setPeerId = function (value) {
   return jspb.Message.setProto3StringField(this, 3, value);
 };
-
 
 /**
  * optional string public_key = 4;
  * @return {string}
  */
-proto.zarb.Peer.prototype.getPublicKey = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 4, ""));
+proto.zarb.Peer.prototype.getPublicKey = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 4, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.Peer} returns this
  */
-proto.zarb.Peer.prototype.setPublicKey = function(value) {
+proto.zarb.Peer.prototype.setPublicKey = function (value) {
   return jspb.Message.setProto3StringField(this, 4, value);
 };
-
 
 /**
  * optional bool initial_block_download = 5;
  * @return {boolean}
  */
-proto.zarb.Peer.prototype.getInitialBlockDownload = function() {
+proto.zarb.Peer.prototype.getInitialBlockDownload = function () {
   return /** @type {boolean} */ (jspb.Message.getBooleanFieldWithDefault(this, 5, false));
 };
-
 
 /**
  * @param {boolean} value
  * @return {!proto.zarb.Peer} returns this
  */
-proto.zarb.Peer.prototype.setInitialBlockDownload = function(value) {
+proto.zarb.Peer.prototype.setInitialBlockDownload = function (value) {
   return jspb.Message.setProto3BooleanField(this, 5, value);
 };
-
 
 /**
  * optional int32 height = 6;
  * @return {number}
  */
-proto.zarb.Peer.prototype.getHeight = function() {
+proto.zarb.Peer.prototype.getHeight = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 6, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.Peer} returns this
  */
-proto.zarb.Peer.prototype.setHeight = function(value) {
+proto.zarb.Peer.prototype.setHeight = function (value) {
   return jspb.Message.setProto3IntField(this, 6, value);
 };
-
 
 /**
  * optional int32 received_messages = 7;
  * @return {number}
  */
-proto.zarb.Peer.prototype.getReceivedMessages = function() {
+proto.zarb.Peer.prototype.getReceivedMessages = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 7, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.Peer} returns this
  */
-proto.zarb.Peer.prototype.setReceivedMessages = function(value) {
+proto.zarb.Peer.prototype.setReceivedMessages = function (value) {
   return jspb.Message.setProto3IntField(this, 7, value);
 };
-
 
 /**
  * optional int32 invalid_messages = 8;
  * @return {number}
  */
-proto.zarb.Peer.prototype.getInvalidMessages = function() {
+proto.zarb.Peer.prototype.getInvalidMessages = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 8, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.Peer} returns this
  */
-proto.zarb.Peer.prototype.setInvalidMessages = function(value) {
+proto.zarb.Peer.prototype.setInvalidMessages = function (value) {
   return jspb.Message.setProto3IntField(this, 8, value);
 };
-
 
 /**
  * optional int32 received_bytes = 9;
  * @return {number}
  */
-proto.zarb.Peer.prototype.getReceivedBytes = function() {
+proto.zarb.Peer.prototype.getReceivedBytes = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 9, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.Peer} returns this
  */
-proto.zarb.Peer.prototype.setReceivedBytes = function(value) {
+proto.zarb.Peer.prototype.setReceivedBytes = function (value) {
   return jspb.Message.setProto3IntField(this, 9, value);
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.Account.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.Account.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.Account} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.Account.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    address: jspb.Message.getFieldWithDefault(msg, 1, ""),
-    number: jspb.Message.getFieldWithDefault(msg, 2, 0),
-    sequence: jspb.Message.getFieldWithDefault(msg, 3, 0),
-    balance: jspb.Message.getFieldWithDefault(msg, 4, 0)
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.Account.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.Account.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.Account} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.Account.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        address: jspb.Message.getFieldWithDefault(msg, 1, ''),
+        number: jspb.Message.getFieldWithDefault(msg, 2, 0),
+        sequence: jspb.Message.getFieldWithDefault(msg, 3, 0),
+        balance: jspb.Message.getFieldWithDefault(msg, 4, 0),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.Account}
  */
-proto.zarb.Account.deserializeBinary = function(bytes) {
+proto.zarb.Account.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.Account;
+  var msg = new proto.zarb.Account();
   return proto.zarb.Account.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -4165,48 +3763,46 @@ proto.zarb.Account.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.Account}
  */
-proto.zarb.Account.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.Account.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setAddress(value);
-      break;
-    case 2:
-      var value = /** @type {number} */ (reader.readInt32());
-      msg.setNumber(value);
-      break;
-    case 3:
-      var value = /** @type {number} */ (reader.readInt32());
-      msg.setSequence(value);
-      break;
-    case 4:
-      var value = /** @type {number} */ (reader.readInt64());
-      msg.setBalance(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setAddress(value);
+        break;
+      case 2:
+        var value = /** @type {number} */ (reader.readInt32());
+        msg.setNumber(value);
+        break;
+      case 3:
+        var value = /** @type {number} */ (reader.readInt32());
+        msg.setSequence(value);
+        break;
+      case 4:
+        var value = /** @type {number} */ (reader.readInt64());
+        msg.setBalance(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.Account.prototype.serializeBinary = function() {
+proto.zarb.Account.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.Account.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -4215,182 +3811,156 @@ proto.zarb.Account.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.Account.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.Account.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getAddress();
   if (f.length > 0) {
-    writer.writeString(
-      1,
-      f
-    );
+    writer.writeString(1, f);
   }
   f = message.getNumber();
   if (f !== 0) {
-    writer.writeInt32(
-      2,
-      f
-    );
+    writer.writeInt32(2, f);
   }
   f = message.getSequence();
   if (f !== 0) {
-    writer.writeInt32(
-      3,
-      f
-    );
+    writer.writeInt32(3, f);
   }
   f = message.getBalance();
   if (f !== 0) {
-    writer.writeInt64(
-      4,
-      f
-    );
+    writer.writeInt64(4, f);
   }
 };
-
 
 /**
  * optional string address = 1;
  * @return {string}
  */
-proto.zarb.Account.prototype.getAddress = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
+proto.zarb.Account.prototype.getAddress = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.Account} returns this
  */
-proto.zarb.Account.prototype.setAddress = function(value) {
+proto.zarb.Account.prototype.setAddress = function (value) {
   return jspb.Message.setProto3StringField(this, 1, value);
 };
-
 
 /**
  * optional int32 number = 2;
  * @return {number}
  */
-proto.zarb.Account.prototype.getNumber = function() {
+proto.zarb.Account.prototype.getNumber = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 2, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.Account} returns this
  */
-proto.zarb.Account.prototype.setNumber = function(value) {
+proto.zarb.Account.prototype.setNumber = function (value) {
   return jspb.Message.setProto3IntField(this, 2, value);
 };
-
 
 /**
  * optional int32 sequence = 3;
  * @return {number}
  */
-proto.zarb.Account.prototype.getSequence = function() {
+proto.zarb.Account.prototype.getSequence = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 3, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.Account} returns this
  */
-proto.zarb.Account.prototype.setSequence = function(value) {
+proto.zarb.Account.prototype.setSequence = function (value) {
   return jspb.Message.setProto3IntField(this, 3, value);
 };
-
 
 /**
  * optional int64 Balance = 4;
  * @return {number}
  */
-proto.zarb.Account.prototype.getBalance = function() {
+proto.zarb.Account.prototype.getBalance = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 4, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.Account} returns this
  */
-proto.zarb.Account.prototype.setBalance = function(value) {
+proto.zarb.Account.prototype.setBalance = function (value) {
   return jspb.Message.setProto3IntField(this, 4, value);
 };
-
-
 
 /**
  * List of repeated fields within this message type.
  * @private {!Array<number>}
  * @const
  */
-proto.zarb.BlockInfo.repeatedFields_ = [9,10];
-
-
+proto.zarb.BlockInfo.repeatedFields_ = [9, 10];
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.BlockInfo.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.BlockInfo.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.BlockInfo} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.BlockInfo.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    version: jspb.Message.getFieldWithDefault(msg, 1, 0),
-    lastBlockHash: jspb.Message.getFieldWithDefault(msg, 2, ""),
-    stateHash: jspb.Message.getFieldWithDefault(msg, 3, ""),
-    txIdsHash: jspb.Message.getFieldWithDefault(msg, 4, ""),
-    lastCertificateHash: jspb.Message.getFieldWithDefault(msg, 5, ""),
-    sortitionSeed: msg.getSortitionSeed_asB64(),
-    proposerAddress: jspb.Message.getFieldWithDefault(msg, 7, ""),
-    round: jspb.Message.getFieldWithDefault(msg, 8, 0),
-    committersList: (f = jspb.Message.getRepeatedField(msg, 9)) == null ? undefined : f,
-    absenteesList: (f = jspb.Message.getRepeatedField(msg, 10)) == null ? undefined : f,
-    signature: jspb.Message.getFieldWithDefault(msg, 11, "")
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.BlockInfo.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.BlockInfo.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.BlockInfo} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.BlockInfo.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        version: jspb.Message.getFieldWithDefault(msg, 1, 0),
+        lastBlockHash: jspb.Message.getFieldWithDefault(msg, 2, ''),
+        stateHash: jspb.Message.getFieldWithDefault(msg, 3, ''),
+        txIdsHash: jspb.Message.getFieldWithDefault(msg, 4, ''),
+        lastCertificateHash: jspb.Message.getFieldWithDefault(msg, 5, ''),
+        sortitionSeed: msg.getSortitionSeed_asB64(),
+        proposerAddress: jspb.Message.getFieldWithDefault(msg, 7, ''),
+        round: jspb.Message.getFieldWithDefault(msg, 8, 0),
+        committersList: (f = jspb.Message.getRepeatedField(msg, 9)) == null ? undefined : f,
+        absenteesList: (f = jspb.Message.getRepeatedField(msg, 10)) == null ? undefined : f,
+        signature: jspb.Message.getFieldWithDefault(msg, 11, ''),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.BlockInfo}
  */
-proto.zarb.BlockInfo.deserializeBinary = function(bytes) {
+proto.zarb.BlockInfo.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.BlockInfo;
+  var msg = new proto.zarb.BlockInfo();
   return proto.zarb.BlockInfo.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -4399,80 +3969,82 @@ proto.zarb.BlockInfo.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.BlockInfo}
  */
-proto.zarb.BlockInfo.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.BlockInfo.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = /** @type {number} */ (reader.readInt32());
-      msg.setVersion(value);
-      break;
-    case 2:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setLastBlockHash(value);
-      break;
-    case 3:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setStateHash(value);
-      break;
-    case 4:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setTxIdsHash(value);
-      break;
-    case 5:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setLastCertificateHash(value);
-      break;
-    case 6:
-      var value = /** @type {!Uint8Array} */ (reader.readBytes());
-      msg.setSortitionSeed(value);
-      break;
-    case 7:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setProposerAddress(value);
-      break;
-    case 8:
-      var value = /** @type {number} */ (reader.readInt64());
-      msg.setRound(value);
-      break;
-    case 9:
-      var values = /** @type {!Array<number>} */ (reader.isDelimited() ? reader.readPackedInt32() : [reader.readInt32()]);
-      for (var i = 0; i < values.length; i++) {
-        msg.addCommitters(values[i]);
-      }
-      break;
-    case 10:
-      var values = /** @type {!Array<number>} */ (reader.isDelimited() ? reader.readPackedInt32() : [reader.readInt32()]);
-      for (var i = 0; i < values.length; i++) {
-        msg.addAbsentees(values[i]);
-      }
-      break;
-    case 11:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setSignature(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = /** @type {number} */ (reader.readInt32());
+        msg.setVersion(value);
+        break;
+      case 2:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setLastBlockHash(value);
+        break;
+      case 3:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setStateHash(value);
+        break;
+      case 4:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setTxIdsHash(value);
+        break;
+      case 5:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setLastCertificateHash(value);
+        break;
+      case 6:
+        var value = /** @type {!Uint8Array} */ (reader.readBytes());
+        msg.setSortitionSeed(value);
+        break;
+      case 7:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setProposerAddress(value);
+        break;
+      case 8:
+        var value = /** @type {number} */ (reader.readInt64());
+        msg.setRound(value);
+        break;
+      case 9:
+        var values = /** @type {!Array<number>} */ (
+          reader.isDelimited() ? reader.readPackedInt32() : [reader.readInt32()]
+        );
+        for (var i = 0; i < values.length; i++) {
+          msg.addCommitters(values[i]);
+        }
+        break;
+      case 10:
+        var values = /** @type {!Array<number>} */ (
+          reader.isDelimited() ? reader.readPackedInt32() : [reader.readInt32()]
+        );
+        for (var i = 0; i < values.length; i++) {
+          msg.addAbsentees(values[i]);
+        }
+        break;
+      case 11:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setSignature(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.BlockInfo.prototype.serializeBinary = function() {
+proto.zarb.BlockInfo.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.BlockInfo.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -4481,197 +4053,150 @@ proto.zarb.BlockInfo.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.BlockInfo.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.BlockInfo.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getVersion();
   if (f !== 0) {
-    writer.writeInt32(
-      1,
-      f
-    );
+    writer.writeInt32(1, f);
   }
   f = message.getLastBlockHash();
   if (f.length > 0) {
-    writer.writeString(
-      2,
-      f
-    );
+    writer.writeString(2, f);
   }
   f = message.getStateHash();
   if (f.length > 0) {
-    writer.writeString(
-      3,
-      f
-    );
+    writer.writeString(3, f);
   }
   f = message.getTxIdsHash();
   if (f.length > 0) {
-    writer.writeString(
-      4,
-      f
-    );
+    writer.writeString(4, f);
   }
   f = message.getLastCertificateHash();
   if (f.length > 0) {
-    writer.writeString(
-      5,
-      f
-    );
+    writer.writeString(5, f);
   }
   f = message.getSortitionSeed_asU8();
   if (f.length > 0) {
-    writer.writeBytes(
-      6,
-      f
-    );
+    writer.writeBytes(6, f);
   }
   f = message.getProposerAddress();
   if (f.length > 0) {
-    writer.writeString(
-      7,
-      f
-    );
+    writer.writeString(7, f);
   }
   f = message.getRound();
   if (f !== 0) {
-    writer.writeInt64(
-      8,
-      f
-    );
+    writer.writeInt64(8, f);
   }
   f = message.getCommittersList();
   if (f.length > 0) {
-    writer.writePackedInt32(
-      9,
-      f
-    );
+    writer.writePackedInt32(9, f);
   }
   f = message.getAbsenteesList();
   if (f.length > 0) {
-    writer.writePackedInt32(
-      10,
-      f
-    );
+    writer.writePackedInt32(10, f);
   }
   f = message.getSignature();
   if (f.length > 0) {
-    writer.writeString(
-      11,
-      f
-    );
+    writer.writeString(11, f);
   }
 };
-
 
 /**
  * optional int32 version = 1;
  * @return {number}
  */
-proto.zarb.BlockInfo.prototype.getVersion = function() {
+proto.zarb.BlockInfo.prototype.getVersion = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 1, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.BlockInfo} returns this
  */
-proto.zarb.BlockInfo.prototype.setVersion = function(value) {
+proto.zarb.BlockInfo.prototype.setVersion = function (value) {
   return jspb.Message.setProto3IntField(this, 1, value);
 };
-
 
 /**
  * optional string last_block_hash = 2;
  * @return {string}
  */
-proto.zarb.BlockInfo.prototype.getLastBlockHash = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 2, ""));
+proto.zarb.BlockInfo.prototype.getLastBlockHash = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 2, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.BlockInfo} returns this
  */
-proto.zarb.BlockInfo.prototype.setLastBlockHash = function(value) {
+proto.zarb.BlockInfo.prototype.setLastBlockHash = function (value) {
   return jspb.Message.setProto3StringField(this, 2, value);
 };
-
 
 /**
  * optional string state_hash = 3;
  * @return {string}
  */
-proto.zarb.BlockInfo.prototype.getStateHash = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 3, ""));
+proto.zarb.BlockInfo.prototype.getStateHash = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 3, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.BlockInfo} returns this
  */
-proto.zarb.BlockInfo.prototype.setStateHash = function(value) {
+proto.zarb.BlockInfo.prototype.setStateHash = function (value) {
   return jspb.Message.setProto3StringField(this, 3, value);
 };
-
 
 /**
  * optional string tx_ids_hash = 4;
  * @return {string}
  */
-proto.zarb.BlockInfo.prototype.getTxIdsHash = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 4, ""));
+proto.zarb.BlockInfo.prototype.getTxIdsHash = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 4, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.BlockInfo} returns this
  */
-proto.zarb.BlockInfo.prototype.setTxIdsHash = function(value) {
+proto.zarb.BlockInfo.prototype.setTxIdsHash = function (value) {
   return jspb.Message.setProto3StringField(this, 4, value);
 };
-
 
 /**
  * optional string last_certificate_hash = 5;
  * @return {string}
  */
-proto.zarb.BlockInfo.prototype.getLastCertificateHash = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 5, ""));
+proto.zarb.BlockInfo.prototype.getLastCertificateHash = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 5, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.BlockInfo} returns this
  */
-proto.zarb.BlockInfo.prototype.setLastCertificateHash = function(value) {
+proto.zarb.BlockInfo.prototype.setLastCertificateHash = function (value) {
   return jspb.Message.setProto3StringField(this, 5, value);
 };
-
 
 /**
  * optional bytes sortition_seed = 6;
  * @return {!(string|Uint8Array)}
  */
-proto.zarb.BlockInfo.prototype.getSortitionSeed = function() {
-  return /** @type {!(string|Uint8Array)} */ (jspb.Message.getFieldWithDefault(this, 6, ""));
+proto.zarb.BlockInfo.prototype.getSortitionSeed = function () {
+  return /** @type {!(string|Uint8Array)} */ (jspb.Message.getFieldWithDefault(this, 6, ''));
 };
-
 
 /**
  * optional bytes sortition_seed = 6;
  * This is a type-conversion wrapper around `getSortitionSeed()`
  * @return {string}
  */
-proto.zarb.BlockInfo.prototype.getSortitionSeed_asB64 = function() {
-  return /** @type {string} */ (jspb.Message.bytesAsB64(
-      this.getSortitionSeed()));
+proto.zarb.BlockInfo.prototype.getSortitionSeed_asB64 = function () {
+  return /** @type {string} */ (jspb.Message.bytesAsB64(this.getSortitionSeed()));
 };
-
 
 /**
  * optional bytes sortition_seed = 6;
@@ -4680,212 +4205,190 @@ proto.zarb.BlockInfo.prototype.getSortitionSeed_asB64 = function() {
  * This is a type-conversion wrapper around `getSortitionSeed()`
  * @return {!Uint8Array}
  */
-proto.zarb.BlockInfo.prototype.getSortitionSeed_asU8 = function() {
-  return /** @type {!Uint8Array} */ (jspb.Message.bytesAsU8(
-      this.getSortitionSeed()));
+proto.zarb.BlockInfo.prototype.getSortitionSeed_asU8 = function () {
+  return /** @type {!Uint8Array} */ (jspb.Message.bytesAsU8(this.getSortitionSeed()));
 };
-
 
 /**
  * @param {!(string|Uint8Array)} value
  * @return {!proto.zarb.BlockInfo} returns this
  */
-proto.zarb.BlockInfo.prototype.setSortitionSeed = function(value) {
+proto.zarb.BlockInfo.prototype.setSortitionSeed = function (value) {
   return jspb.Message.setProto3BytesField(this, 6, value);
 };
-
 
 /**
  * optional string proposer_address = 7;
  * @return {string}
  */
-proto.zarb.BlockInfo.prototype.getProposerAddress = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 7, ""));
+proto.zarb.BlockInfo.prototype.getProposerAddress = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 7, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.BlockInfo} returns this
  */
-proto.zarb.BlockInfo.prototype.setProposerAddress = function(value) {
+proto.zarb.BlockInfo.prototype.setProposerAddress = function (value) {
   return jspb.Message.setProto3StringField(this, 7, value);
 };
-
 
 /**
  * optional int64 round = 8;
  * @return {number}
  */
-proto.zarb.BlockInfo.prototype.getRound = function() {
+proto.zarb.BlockInfo.prototype.getRound = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 8, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.BlockInfo} returns this
  */
-proto.zarb.BlockInfo.prototype.setRound = function(value) {
+proto.zarb.BlockInfo.prototype.setRound = function (value) {
   return jspb.Message.setProto3IntField(this, 8, value);
 };
-
 
 /**
  * repeated int32 committers = 9;
  * @return {!Array<number>}
  */
-proto.zarb.BlockInfo.prototype.getCommittersList = function() {
+proto.zarb.BlockInfo.prototype.getCommittersList = function () {
   return /** @type {!Array<number>} */ (jspb.Message.getRepeatedField(this, 9));
 };
-
 
 /**
  * @param {!Array<number>} value
  * @return {!proto.zarb.BlockInfo} returns this
  */
-proto.zarb.BlockInfo.prototype.setCommittersList = function(value) {
+proto.zarb.BlockInfo.prototype.setCommittersList = function (value) {
   return jspb.Message.setField(this, 9, value || []);
 };
-
 
 /**
  * @param {number} value
  * @param {number=} opt_index
  * @return {!proto.zarb.BlockInfo} returns this
  */
-proto.zarb.BlockInfo.prototype.addCommitters = function(value, opt_index) {
+proto.zarb.BlockInfo.prototype.addCommitters = function (value, opt_index) {
   return jspb.Message.addToRepeatedField(this, 9, value, opt_index);
 };
-
 
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.zarb.BlockInfo} returns this
  */
-proto.zarb.BlockInfo.prototype.clearCommittersList = function() {
+proto.zarb.BlockInfo.prototype.clearCommittersList = function () {
   return this.setCommittersList([]);
 };
-
 
 /**
  * repeated int32 absentees = 10;
  * @return {!Array<number>}
  */
-proto.zarb.BlockInfo.prototype.getAbsenteesList = function() {
+proto.zarb.BlockInfo.prototype.getAbsenteesList = function () {
   return /** @type {!Array<number>} */ (jspb.Message.getRepeatedField(this, 10));
 };
-
 
 /**
  * @param {!Array<number>} value
  * @return {!proto.zarb.BlockInfo} returns this
  */
-proto.zarb.BlockInfo.prototype.setAbsenteesList = function(value) {
+proto.zarb.BlockInfo.prototype.setAbsenteesList = function (value) {
   return jspb.Message.setField(this, 10, value || []);
 };
-
 
 /**
  * @param {number} value
  * @param {number=} opt_index
  * @return {!proto.zarb.BlockInfo} returns this
  */
-proto.zarb.BlockInfo.prototype.addAbsentees = function(value, opt_index) {
+proto.zarb.BlockInfo.prototype.addAbsentees = function (value, opt_index) {
   return jspb.Message.addToRepeatedField(this, 10, value, opt_index);
 };
-
 
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.zarb.BlockInfo} returns this
  */
-proto.zarb.BlockInfo.prototype.clearAbsenteesList = function() {
+proto.zarb.BlockInfo.prototype.clearAbsenteesList = function () {
   return this.setAbsenteesList([]);
 };
-
 
 /**
  * optional string signature = 11;
  * @return {string}
  */
-proto.zarb.BlockInfo.prototype.getSignature = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 11, ""));
+proto.zarb.BlockInfo.prototype.getSignature = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 11, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.BlockInfo} returns this
  */
-proto.zarb.BlockInfo.prototype.setSignature = function(value) {
+proto.zarb.BlockInfo.prototype.setSignature = function (value) {
   return jspb.Message.setProto3StringField(this, 11, value);
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
-/**
- * Creates an object representation of this proto.
- * Field names that are reserved in JavaScript and will be renamed to pb_name.
- * Optional fields that are not set will be set to undefined.
- * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
- * For the list of reserved names please see:
- *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
- * @param {boolean=} opt_includeInstance Deprecated. whether to include the
- *     JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @return {!Object}
- */
-proto.zarb.Transaction.prototype.toObject = function(opt_includeInstance) {
-  return proto.zarb.Transaction.toObject(opt_includeInstance, this);
-};
-
-
-/**
- * Static version of the {@see toObject} method.
- * @param {boolean|undefined} includeInstance Deprecated. Whether to include
- *     the JSPB instance for transitional soy proto support:
- *     http://goto/soy-param-migration
- * @param {!proto.zarb.Transaction} msg The msg instance to transform.
- * @return {!Object}
- * @suppress {unusedLocalVariables} f is only used for nested messages
- */
-proto.zarb.Transaction.toObject = function(includeInstance, msg) {
-  var f, obj = {
-    id: jspb.Message.getFieldWithDefault(msg, 1, ""),
-    version: jspb.Message.getFieldWithDefault(msg, 2, 0),
-    stamp: jspb.Message.getFieldWithDefault(msg, 3, ""),
-    sequence: jspb.Message.getFieldWithDefault(msg, 4, 0),
-    fee: jspb.Message.getFieldWithDefault(msg, 5, 0),
-    type: jspb.Message.getFieldWithDefault(msg, 6, 0),
-    payload: msg.getPayload_asB64(),
-    memo: jspb.Message.getFieldWithDefault(msg, 8, ""),
-    publicKey: jspb.Message.getFieldWithDefault(msg, 9, ""),
-    signature: jspb.Message.getFieldWithDefault(msg, 10, "")
+  /**
+   * Creates an object representation of this proto.
+   * Field names that are reserved in JavaScript and will be renamed to pb_name.
+   * Optional fields that are not set will be set to undefined.
+   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+   * For the list of reserved names please see:
+   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+   *     JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @return {!Object}
+   */
+  proto.zarb.Transaction.prototype.toObject = function (opt_includeInstance) {
+    return proto.zarb.Transaction.toObject(opt_includeInstance, this);
   };
 
-  if (includeInstance) {
-    obj.$jspbMessageInstance = msg;
-  }
-  return obj;
-};
-}
+  /**
+   * Static version of the {@see toObject} method.
+   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+   *     the JSPB instance for transitional soy proto support:
+   *     http://goto/soy-param-migration
+   * @param {!proto.zarb.Transaction} msg The msg instance to transform.
+   * @return {!Object}
+   * @suppress {unusedLocalVariables} f is only used for nested messages
+   */
+  proto.zarb.Transaction.toObject = function (includeInstance, msg) {
+    var f,
+      obj = {
+        id: jspb.Message.getFieldWithDefault(msg, 1, ''),
+        version: jspb.Message.getFieldWithDefault(msg, 2, 0),
+        stamp: jspb.Message.getFieldWithDefault(msg, 3, ''),
+        sequence: jspb.Message.getFieldWithDefault(msg, 4, 0),
+        fee: jspb.Message.getFieldWithDefault(msg, 5, 0),
+        type: jspb.Message.getFieldWithDefault(msg, 6, 0),
+        payload: msg.getPayload_asB64(),
+        memo: jspb.Message.getFieldWithDefault(msg, 8, ''),
+        publicKey: jspb.Message.getFieldWithDefault(msg, 9, ''),
+        signature: jspb.Message.getFieldWithDefault(msg, 10, ''),
+      };
 
+    if (includeInstance) {
+      obj.$jspbMessageInstance = msg;
+    }
+    return obj;
+  };
+}
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.zarb.Transaction}
  */
-proto.zarb.Transaction.deserializeBinary = function(bytes) {
+proto.zarb.Transaction.deserializeBinary = function (bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.zarb.Transaction;
+  var msg = new proto.zarb.Transaction();
   return proto.zarb.Transaction.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -4894,72 +4397,70 @@ proto.zarb.Transaction.deserializeBinary = function(bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.zarb.Transaction}
  */
-proto.zarb.Transaction.deserializeBinaryFromReader = function(msg, reader) {
+proto.zarb.Transaction.deserializeBinaryFromReader = function (msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-    case 1:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setId(value);
-      break;
-    case 2:
-      var value = /** @type {number} */ (reader.readInt32());
-      msg.setVersion(value);
-      break;
-    case 3:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setStamp(value);
-      break;
-    case 4:
-      var value = /** @type {number} */ (reader.readInt64());
-      msg.setSequence(value);
-      break;
-    case 5:
-      var value = /** @type {number} */ (reader.readInt64());
-      msg.setFee(value);
-      break;
-    case 6:
-      var value = /** @type {!proto.zarb.PayloadType} */ (reader.readEnum());
-      msg.setType(value);
-      break;
-    case 7:
-      var value = /** @type {!Uint8Array} */ (reader.readBytes());
-      msg.setPayload(value);
-      break;
-    case 8:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setMemo(value);
-      break;
-    case 9:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setPublicKey(value);
-      break;
-    case 10:
-      var value = /** @type {string} */ (reader.readString());
-      msg.setSignature(value);
-      break;
-    default:
-      reader.skipField();
-      break;
+      case 1:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setId(value);
+        break;
+      case 2:
+        var value = /** @type {number} */ (reader.readInt32());
+        msg.setVersion(value);
+        break;
+      case 3:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setStamp(value);
+        break;
+      case 4:
+        var value = /** @type {number} */ (reader.readInt64());
+        msg.setSequence(value);
+        break;
+      case 5:
+        var value = /** @type {number} */ (reader.readInt64());
+        msg.setFee(value);
+        break;
+      case 6:
+        var value = /** @type {!proto.zarb.PayloadType} */ (reader.readEnum());
+        msg.setType(value);
+        break;
+      case 7:
+        var value = /** @type {!Uint8Array} */ (reader.readBytes());
+        msg.setPayload(value);
+        break;
+      case 8:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setMemo(value);
+        break;
+      case 9:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setPublicKey(value);
+        break;
+      case 10:
+        var value = /** @type {string} */ (reader.readString());
+        msg.setSignature(value);
+        break;
+      default:
+        reader.skipField();
+        break;
     }
   }
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.zarb.Transaction.prototype.serializeBinary = function() {
+proto.zarb.Transaction.prototype.serializeBinary = function () {
   var writer = new jspb.BinaryWriter();
   proto.zarb.Transaction.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -4968,208 +4469,162 @@ proto.zarb.Transaction.prototype.serializeBinary = function() {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.zarb.Transaction.serializeBinaryToWriter = function(message, writer) {
+proto.zarb.Transaction.serializeBinaryToWriter = function (message, writer) {
   var f = undefined;
   f = message.getId();
   if (f.length > 0) {
-    writer.writeString(
-      1,
-      f
-    );
+    writer.writeString(1, f);
   }
   f = message.getVersion();
   if (f !== 0) {
-    writer.writeInt32(
-      2,
-      f
-    );
+    writer.writeInt32(2, f);
   }
   f = message.getStamp();
   if (f.length > 0) {
-    writer.writeString(
-      3,
-      f
-    );
+    writer.writeString(3, f);
   }
   f = message.getSequence();
   if (f !== 0) {
-    writer.writeInt64(
-      4,
-      f
-    );
+    writer.writeInt64(4, f);
   }
   f = message.getFee();
   if (f !== 0) {
-    writer.writeInt64(
-      5,
-      f
-    );
+    writer.writeInt64(5, f);
   }
   f = message.getType();
   if (f !== 0.0) {
-    writer.writeEnum(
-      6,
-      f
-    );
+    writer.writeEnum(6, f);
   }
   f = message.getPayload_asU8();
   if (f.length > 0) {
-    writer.writeBytes(
-      7,
-      f
-    );
+    writer.writeBytes(7, f);
   }
   f = message.getMemo();
   if (f.length > 0) {
-    writer.writeString(
-      8,
-      f
-    );
+    writer.writeString(8, f);
   }
   f = message.getPublicKey();
   if (f.length > 0) {
-    writer.writeString(
-      9,
-      f
-    );
+    writer.writeString(9, f);
   }
   f = message.getSignature();
   if (f.length > 0) {
-    writer.writeString(
-      10,
-      f
-    );
+    writer.writeString(10, f);
   }
 };
-
 
 /**
  * optional string id = 1;
  * @return {string}
  */
-proto.zarb.Transaction.prototype.getId = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
+proto.zarb.Transaction.prototype.getId = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.Transaction} returns this
  */
-proto.zarb.Transaction.prototype.setId = function(value) {
+proto.zarb.Transaction.prototype.setId = function (value) {
   return jspb.Message.setProto3StringField(this, 1, value);
 };
-
 
 /**
  * optional int32 Version = 2;
  * @return {number}
  */
-proto.zarb.Transaction.prototype.getVersion = function() {
+proto.zarb.Transaction.prototype.getVersion = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 2, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.Transaction} returns this
  */
-proto.zarb.Transaction.prototype.setVersion = function(value) {
+proto.zarb.Transaction.prototype.setVersion = function (value) {
   return jspb.Message.setProto3IntField(this, 2, value);
 };
-
 
 /**
  * optional string stamp = 3;
  * @return {string}
  */
-proto.zarb.Transaction.prototype.getStamp = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 3, ""));
+proto.zarb.Transaction.prototype.getStamp = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 3, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.Transaction} returns this
  */
-proto.zarb.Transaction.prototype.setStamp = function(value) {
+proto.zarb.Transaction.prototype.setStamp = function (value) {
   return jspb.Message.setProto3StringField(this, 3, value);
 };
-
 
 /**
  * optional int64 sequence = 4;
  * @return {number}
  */
-proto.zarb.Transaction.prototype.getSequence = function() {
+proto.zarb.Transaction.prototype.getSequence = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 4, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.Transaction} returns this
  */
-proto.zarb.Transaction.prototype.setSequence = function(value) {
+proto.zarb.Transaction.prototype.setSequence = function (value) {
   return jspb.Message.setProto3IntField(this, 4, value);
 };
-
 
 /**
  * optional int64 Fee = 5;
  * @return {number}
  */
-proto.zarb.Transaction.prototype.getFee = function() {
+proto.zarb.Transaction.prototype.getFee = function () {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 5, 0));
 };
-
 
 /**
  * @param {number} value
  * @return {!proto.zarb.Transaction} returns this
  */
-proto.zarb.Transaction.prototype.setFee = function(value) {
+proto.zarb.Transaction.prototype.setFee = function (value) {
   return jspb.Message.setProto3IntField(this, 5, value);
 };
-
 
 /**
  * optional PayloadType Type = 6;
  * @return {!proto.zarb.PayloadType}
  */
-proto.zarb.Transaction.prototype.getType = function() {
+proto.zarb.Transaction.prototype.getType = function () {
   return /** @type {!proto.zarb.PayloadType} */ (jspb.Message.getFieldWithDefault(this, 6, 0));
 };
-
 
 /**
  * @param {!proto.zarb.PayloadType} value
  * @return {!proto.zarb.Transaction} returns this
  */
-proto.zarb.Transaction.prototype.setType = function(value) {
+proto.zarb.Transaction.prototype.setType = function (value) {
   return jspb.Message.setProto3EnumField(this, 6, value);
 };
-
 
 /**
  * optional bytes Payload = 7;
  * @return {!(string|Uint8Array)}
  */
-proto.zarb.Transaction.prototype.getPayload = function() {
-  return /** @type {!(string|Uint8Array)} */ (jspb.Message.getFieldWithDefault(this, 7, ""));
+proto.zarb.Transaction.prototype.getPayload = function () {
+  return /** @type {!(string|Uint8Array)} */ (jspb.Message.getFieldWithDefault(this, 7, ''));
 };
-
 
 /**
  * optional bytes Payload = 7;
  * This is a type-conversion wrapper around `getPayload()`
  * @return {string}
  */
-proto.zarb.Transaction.prototype.getPayload_asB64 = function() {
-  return /** @type {string} */ (jspb.Message.bytesAsB64(
-      this.getPayload()));
+proto.zarb.Transaction.prototype.getPayload_asB64 = function () {
+  return /** @type {string} */ (jspb.Message.bytesAsB64(this.getPayload()));
 };
-
 
 /**
  * optional bytes Payload = 7;
@@ -5178,74 +4633,65 @@ proto.zarb.Transaction.prototype.getPayload_asB64 = function() {
  * This is a type-conversion wrapper around `getPayload()`
  * @return {!Uint8Array}
  */
-proto.zarb.Transaction.prototype.getPayload_asU8 = function() {
-  return /** @type {!Uint8Array} */ (jspb.Message.bytesAsU8(
-      this.getPayload()));
+proto.zarb.Transaction.prototype.getPayload_asU8 = function () {
+  return /** @type {!Uint8Array} */ (jspb.Message.bytesAsU8(this.getPayload()));
 };
-
 
 /**
  * @param {!(string|Uint8Array)} value
  * @return {!proto.zarb.Transaction} returns this
  */
-proto.zarb.Transaction.prototype.setPayload = function(value) {
+proto.zarb.Transaction.prototype.setPayload = function (value) {
   return jspb.Message.setProto3BytesField(this, 7, value);
 };
-
 
 /**
  * optional string memo = 8;
  * @return {string}
  */
-proto.zarb.Transaction.prototype.getMemo = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 8, ""));
+proto.zarb.Transaction.prototype.getMemo = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 8, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.Transaction} returns this
  */
-proto.zarb.Transaction.prototype.setMemo = function(value) {
+proto.zarb.Transaction.prototype.setMemo = function (value) {
   return jspb.Message.setProto3StringField(this, 8, value);
 };
-
 
 /**
  * optional string public_key = 9;
  * @return {string}
  */
-proto.zarb.Transaction.prototype.getPublicKey = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 9, ""));
+proto.zarb.Transaction.prototype.getPublicKey = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 9, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.Transaction} returns this
  */
-proto.zarb.Transaction.prototype.setPublicKey = function(value) {
+proto.zarb.Transaction.prototype.setPublicKey = function (value) {
   return jspb.Message.setProto3StringField(this, 9, value);
 };
-
 
 /**
  * optional string signature = 10;
  * @return {string}
  */
-proto.zarb.Transaction.prototype.getSignature = function() {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 10, ""));
+proto.zarb.Transaction.prototype.getSignature = function () {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 10, ''));
 };
-
 
 /**
  * @param {string} value
  * @return {!proto.zarb.Transaction} returns this
  */
-proto.zarb.Transaction.prototype.setSignature = function(value) {
+proto.zarb.Transaction.prototype.setSignature = function (value) {
   return jspb.Message.setProto3StringField(this, 10, value);
 };
-
 
 /**
  * @enum {number}
@@ -5254,7 +4700,7 @@ proto.zarb.PayloadType = {
   SEND_PAYLOAD: 0,
   BOND_PAYLOAD: 1,
   SORTITION_PAYLOAD: 2,
-  UNBOND_PAYLOAD: 3
+  UNBOND_PAYLOAD: 3,
 };
 
 /**
@@ -5263,7 +4709,7 @@ proto.zarb.PayloadType = {
 proto.zarb.BlockVerbosity = {
   BLOCK_HASH: 0,
   BLOCK_DATA: 1,
-  BLOCK_TRANSACTIONS: 2
+  BLOCK_TRANSACTIONS: 2,
 };
 
 /**
@@ -5271,7 +4717,7 @@ proto.zarb.BlockVerbosity = {
  */
 proto.zarb.AccountVerbosity = {
   ACCOUNT_INFO: 0,
-  ACCOUNT_TRANSACTIONS: 1
+  ACCOUNT_TRANSACTIONS: 1,
 };
 
 goog.object.extend(exports, proto.zarb);
