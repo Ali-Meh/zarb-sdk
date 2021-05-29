@@ -9,7 +9,7 @@ let logger:Logger
 
 
 
-class Logger implements ILogger{
+export class Logger implements ILogger{
   static verbosityString='INFO'
   static tracersString=''
   static enabledTracers:string[]

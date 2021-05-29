@@ -14,10 +14,12 @@ export default class SendPayload implements ITransactionPayload {
      * @param  {string} Receiver bech32 Address of Reciever
      * @param  {number} Amount Amount to Send
      */
-    constructor(Sender: string, Receiver: string, Amount: number) {
-        this.Sender = Address.DecodeFromBech32(Sender)
-        this.Receiver = Address.DecodeFromBech32(Receiver)
-        this.Amount = Amount
+    constructor(Sender?: string, Receiver?: string, Amount?: number) {
+        if(Sender&&Receiver&&Amount){
+            this.Sender = Address.DecodeFromBech32(Sender)
+            this.Receiver = Address.DecodeFromBech32(Receiver)
+            this.Amount = Amount
+        }
     }
 
     /** will update transaction payload object based on decoded data

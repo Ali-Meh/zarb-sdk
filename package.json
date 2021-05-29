@@ -7,7 +7,7 @@
   "scripts": {
     "prepublish": "tsc",
     "build": "tsc -p .",
-    "test": "jest",
+    "test": "jest --verbose",
     "dev:start": "ts-node src/index.ts",
     "dev": "nodemon -e js,ts,json,env --exec npm run dev:start",
     "dev:exp": "nodemon -e js,ts,json,env --exec ts-node example/send_transaction.ts",
