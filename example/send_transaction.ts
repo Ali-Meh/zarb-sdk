@@ -1,5 +1,5 @@
 //@ts-ignore
-import {Key,Logger,Transaction,ZarbRPC, BlockchainInfoRequest, AccountRequest, SendPayload, Address ,payloadType, SendRawTransactionRequest,AccountResponse, BlockchainInfoResponse,SendRawTransactionResponse} from '..'
+import {Key,Logger,Transaction,ZarbRPC, BlockchainInfoRequest, AccountRequest, SendPayload, Address ,payloadType, SendRawTransactionRequest,AccountResponse, BlockchainInfoResponse,SendRawTransactionResponse} from '../index.ts'
 import dotenv from 'dotenv'
 import { credentials,ServiceError } from '@grpc/grpc-js';
 dotenv.config()
@@ -61,6 +61,6 @@ main().then(e=>{
     console.log("done");
 })
 
-// setTimeout(()=>{
-//     console.log("timer passed out")
-// },15000)
+setTimeout(()=>{
+    console.log("timer passed out")
+},15000)
