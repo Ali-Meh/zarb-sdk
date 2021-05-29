@@ -1,5 +1,5 @@
 [![CI](https://github.com/Ali-Meh/zarb-sdk/actions/workflows/CI.yml/badge.svg)](https://github.com/Ali-Meh/zarb-sdk/actions/workflows/CI.yml)
-------
+
 # Zarb-SDK
 
 Nodejs SDK to interact with zarb blockchain written in Typescript
