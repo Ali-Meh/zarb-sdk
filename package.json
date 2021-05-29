@@ -2,8 +2,10 @@
   "name": "zarb-sdk",
   "version": "0.0.1",
   "description": "typescript sdk for zarb blockchain",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "prepublish": "tsc",
     "build": "tsc -p .",
     "test": "jest --verbose",
     "dev:start": "ts-node src/index.ts",
