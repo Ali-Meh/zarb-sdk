@@ -2,5 +2,7 @@ src
 tsconfig.json
 tslint.json
 .prettierrc
-dist/coverage
-dist/example
+dist/coverage/**/*
+dist/example/**/*
+**.test.**
+jest.**
