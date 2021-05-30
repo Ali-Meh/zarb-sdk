@@ -58,7 +58,7 @@ export class Logger implements ILogger {
   //   _logger = logger;
   // };
 
-  setLoggerVerbosity(verbosity: LogVer): void {
+  public SetLoggerVerbosity(verbosity: LogVer): void {
     _logVerbosity = verbosity;
   }
 
