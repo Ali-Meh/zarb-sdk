@@ -1,6 +1,6 @@
 {
   "name": "zarb-sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Nodejs SDK For Zarb Blockchain",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
