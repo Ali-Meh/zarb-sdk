@@ -3,7 +3,7 @@ import { tracers } from '../constants';
 import Logger from '../logger/logger';
 const bls = require('bls-wasm');
 const blake2 = require('blake2');
-var h = blake2.createHash('blake2b', { digestLength: 32 });
+const h = blake2.createHash('blake2b', { digestLength: 32 });
 
 export default class Key {
   private privateKey: any;
@@ -22,7 +22,7 @@ export default class Key {
    */
   public static async New(secret?: string): Promise<Key> {
     await bls.init(bls.BLS12_381);
-    let key = new Key();
+    const key = new Key();
     try {
       if (secret) {
         key.privateKey = bls.deserializeHexStrToSecretKey(secret);

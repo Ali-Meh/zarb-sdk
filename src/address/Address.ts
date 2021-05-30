@@ -2,7 +2,7 @@ import { tracers } from '../constants';
 import logger from '../logger/logger';
 const bech32 = require('bech32-buffer');
 const RIPEMD160 = require('ripemd160');
-var blake2 = require('blake2');
+const blake2 = require('blake2');
 
 export default class Address {
   private address: Buffer;
@@ -14,9 +14,9 @@ export default class Address {
   constructor(address: string, publicKey?: Buffer) {
     this.address = Address.DecodeFromBech32(address);
     if (publicKey) {
-      let addr = Address.FromPublicKey(publicKey);
+      const addr = Address.FromPublicKey(publicKey);
       logger.Debug(`[Address.CTOR.pubkey]: ${addr}`);
-      if (addr.toString() != this.address.toString()) {
+      if (addr.toString() !== this.address.toString()) {
         logger.Error(`[Address.CTOR]: ${addr.toString('hex')} != ${this.address.toString('hex')}`);
         throw new Error("public key and address don't match");
       }
@@ -39,7 +39,7 @@ export default class Address {
   public Verify(pub: Buffer): boolean {
     try {
       let addr = Address.FromPublicKey(pub);
-      return addr.toString() == this.address.toString();
+      return addr.toString() === this.address.toString();
     } catch (error) {
       logger.Error('[Address.Verify]: ', error);
     }
@@ -51,12 +51,12 @@ export default class Address {
   static FromPublicKey(pub: Buffer): Buffer {
     let address: string;
     try {
-      var h = blake2.createHash('blake2b', { digestLength: 32 });
+      const h = blake2.createHash('blake2b', { digestLength: 32 });
       h.update(pub);
-      let has = h.digest('hex');
+      const has = h.digest('hex');
       logger.Debug('Address', `blake2b => ${has}`);
 
-      let rip = new RIPEMD160();
+      const rip = new RIPEMD160();
       address = rip.update(has, 'hex').digest('hex');
       logger.Debug('Address', `ripemd160 => ${address}`);
     } catch (error) {
@@ -68,15 +68,15 @@ export default class Address {
   }
 
   static EncodeToBech32(address: Buffer): string {
-    let encoded = bech32.encode('zrb', address);
+    const encoded = bech32.encode('zrb', address);
     logger.Debug('Address', `Encoded bech32 Address => ${encoded}`);
     return encoded;
   }
 
   static DecodeFromBech32(address: string): Buffer {
     try {
-      let decoded = bech32.decode(address);
-      if (decoded.prefix != 'zrb') {
+      const decoded = bech32.decode(address);
+      if (decoded.prefix !== 'zrb') {
         throw new Error("Prefix Doesn't match");
       }
       logger.Debug('Address', `Decoded bech32 Address => ${decoded}`);

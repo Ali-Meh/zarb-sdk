@@ -1,6 +1,6 @@
 import { LogVer, tracers } from '../constants';
 
-let _logger: Partial<Console> = console;
+const _logger: Partial<Console> = console;
 let _logVerbosity: LogVer = LogVer.ERROR;
 
 let logger: Logger;

@@ -5,7 +5,7 @@ import { ITransactionPayload } from '../Transaction';
 export default class SendPayload implements ITransactionPayload {
   private Sender: Buffer;
   private Receiver: Buffer;
-  private Amount: Number;
+  private Amount: number;
 
   /** SendPayload will generate payload needed for send transaction
    * @param  {string} Sender bech32 Address of sender(signer)
@@ -25,7 +25,7 @@ export default class SendPayload implements ITransactionPayload {
    * @returns void
    */
   Decode(data: string): void {
-    let decoded = Decoder.decodeFirstSync(data);
+    const decoded = Decoder.decodeFirstSync(data);
     this.Sender = decoded.get(1);
     this.Receiver = decoded.get(2);
     this.Amount = decoded.get(3);
@@ -43,7 +43,7 @@ export default class SendPayload implements ITransactionPayload {
    * @returns Map of send portion payload
    */
   public Map(): Map<number, any> {
-    let sp = new Map();
+    const sp = new Map();
     sp.set(1, this.Sender);
     sp.set(2, this.Receiver);
     sp.set(3, this.Amount);
@@ -56,7 +56,6 @@ export default class SendPayload implements ITransactionPayload {
    * @returns SendPayload
    */
   public static Decode(data: Map<number, any>): SendPayload {
-    //#TODO update after creating address requirements to convert address to bech32
     return new SendPayload(Address.EncodeToBech32(data.get(1)), Address.EncodeToBech32(data.get(2)), data.get(3));
   }
 }

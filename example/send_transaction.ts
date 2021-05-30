@@ -6,10 +6,10 @@ dotenv.config()
 
 
 async function main() {
-    let senderkey=await Key.New();
-    let reciverkey=await Key.New();
+    const senderkey=await Key.New();
+    const reciverkey=await Key.New();
 
-    let zarbRPC=new ZarbRPC("172.104.186.100:9090",credentials.createInsecure())
+    const zarbRPC=new ZarbRPC("172.104.186.100:9090",credentials.createInsecure())
 
     Logger.Info("Connecting to grpc")
     try {
@@ -32,7 +32,7 @@ async function main() {
                 Logger.Debug(`[Exmaple.getBlockchainInfo]: Got Account Info \n${JSON.stringify(acc.toObject())}`)
 
                 //@ts-ignore
-                let transaction=new Transaction(1,Buffer.from(info.getLastBlockHash(),'hex'),acc.getAccount().getSequence()+1,1000,payloadType.PayloadTypeSend,new SendPayload(
+                const transaction=new Transaction(1,Buffer.from(info.getLastBlockHash(),'hex'),acc.getAccount().getSequence()+1,1000,payloadType.PayloadTypeSend,new SendPayload(
                     Address.EncodeToBech32(senderkey.GetAddress()),
                     Address.EncodeToBech32(reciverkey.GetAddress()),
                     10000000
@@ -40,10 +40,10 @@ async function main() {
 
                 transaction.Sign(senderkey)
 
-                let signedTrx=transaction.Encode(true)
+                const signedTrx=transaction.Encode(true)
                 zarbRPC.sendRawTransaction(new SendRawTransactionRequest().setData(signedTrx.toString('hex')),((err:ServiceError | null,res:SendRawTransactionResponse)=>{
                     if (err){
-                        console.log("[Exmaple.sendRawTransaction]: ",err)
+                        Logger.Error("[Exmaple.sendRawTransaction]: ",err)
                         return;
                     }
 
@@ -58,9 +58,9 @@ async function main() {
 
 
 main().then(e=>{
-    console.log("done");
+    Logger.Info("done");
 })
 
 setTimeout(()=>{
-    console.log("timer passed out")
+    Logger.Warn("timer passed out")
 },15000)

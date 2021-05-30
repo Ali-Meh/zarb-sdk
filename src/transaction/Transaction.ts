@@ -53,7 +53,7 @@ export default class Transaction {
    * @returns Buffer  will return encoded payload
    */
   Encode(sign = false): Buffer {
-    let mtx = new Map();
+    const mtx = new Map();
     mtx.set(1, this.Version);
     mtx.set(2, this.Stamp);
     mtx.set(3, this.Sequence);
@@ -83,7 +83,7 @@ export default class Transaction {
    * @returns {Transaction} will generate new transaction and append stuff to it and retur it
    */
   static Decode(data: string): Transaction {
-    let decodedTrx = Decoder.decodeFirstSync(data);
+    const decodedTrx = Decoder.decodeFirstSync(data);
 
     let payload: ITransactionPayload;
     switch (decodedTrx.get(5)) {
