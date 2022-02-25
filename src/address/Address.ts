@@ -1,8 +1,11 @@
-import { tracers } from '../constants';
 import logger from '../logger/logger';
-const bech32 = require('bech32-buffer');
-const RIPEMD160 = require('ripemd160');
-const blake2 = require('blake2');
+import * as bech32 from 'bech32-buffer';
+import * as blake2 from 'blake2';
+import RIPEMD160 from 'ripemd160';
+
+
+export const AddressTypeBLS = Buffer.from(new Uint8Array(1));
+
 
 export default class Address {
   private address: Buffer;
@@ -28,7 +31,7 @@ export default class Address {
    * @returns Buffer
    */
   public GetAddress(): Buffer {
-    return this.address;
+    return this.address.slice(1);
   }
 
   /**
@@ -58,17 +61,18 @@ export default class Address {
 
       const rip = new RIPEMD160();
       address = rip.update(has, 'hex').digest('hex');
+
       logger.Debug('Address', `ripemd160 => ${address}`);
     } catch (error) {
       logger.Error('[Address.FromPublicKey]', error);
       throw error;
     }
 
-    return Buffer.from(address, 'hex');
+    return Buffer.concat([AddressTypeBLS, Buffer.from(address, 'hex')]);
   }
 
   static EncodeToBech32(address: Buffer): string {
-    const encoded = bech32.encode('zrb', address);
+    const encoded = bech32.encode('zc', address.slice(1));
     logger.Debug('Address', `Encoded bech32 Address => ${encoded}`);
     return encoded;
   }
@@ -76,14 +80,17 @@ export default class Address {
   static DecodeFromBech32(address: string): Buffer {
     try {
       const decoded = bech32.decode(address);
-      if (decoded.prefix !== 'zrb') {
+      if (decoded.prefix !== 'zc') {
         throw new Error("Prefix Doesn't match");
       }
       logger.Debug('Address', `Decoded bech32 Address => ${decoded}`);
-      return Buffer.from(decoded.data);
+      return Buffer.concat([AddressTypeBLS, Buffer.from(decoded.data)]);
     } catch (error) {
       logger.Error('[Address.DecodeFromBech32]: ', error);
       throw error;
     }
   }
 }
+
+
+

@@ -4,6 +4,7 @@ import * as noblebls from '@noble/bls12-381';
 import blswasm from 'bls-wasm';
 // var loadBlsSign = require("bls-signatures");
 import loadBlsSign from '@chiamine/bls-signatures'
+import Address from '../address/Address';
 
 
 describe('[keys]', () => {
@@ -32,6 +33,7 @@ describe('[keys]', () => {
 
   const privateKey = '11844597f22cbc452c1560b6c1b9a1e41e77e301c6981eb5026ec289e4e5f123';
   const publicKey = 'a7aa45e7e3f6496312b05aab2d4c77b3c3b5e7cdd1fa355bb09f5fd871347b9e7301d8adb3fbec54f7bf2316bd50d66403b917ca7a06548f1de07585b08e5564271fd2debf778d4060b63c6ad06903903c66df8152c9b2c61b1afae23ce01583';
+  const address = 'zc1sgwuqf5wlng5rgpjtqm0v9u78n9x0mn5msuts9';
   it('bls-wasm', async (done) => {
     await blswasm.init(blswasm.BLS12_381);
     // bls.setETHmode(bls.ETH_MODE_DRAFT_06)
@@ -68,6 +70,11 @@ describe('[keys]', () => {
     );
     expect(sig).toEqual(
       publicKey,
+    );
+
+    expect(Address.EncodeToBech32(Address.FromPublicKey(Buffer.from(signBytes)))
+    ).toEqual(
+      address,
     );
     done();
   });
