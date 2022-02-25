@@ -10,9 +10,9 @@ export default class Key {
   private publicKey: Buffer;
 
   /**
-   * @deprecated use `New()` instead
+   *use `New()` instead
    */
-  constructor() {}
+  private constructor() { }
 
   /**main constructor to setup encryption seeds
    * you need to run this to get a functional key Obj
