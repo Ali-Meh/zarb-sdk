@@ -72,7 +72,10 @@ export default class Address {
   }
 
   static EncodeToBech32(address: Buffer): string {
-    const encoded = bech32.encode('zc', address.slice(1));
+    if (address.length == 21) {
+      address = address.slice(1);
+    }
+    const encoded = bech32.encode('zc', address);
     logger.Debug('Address', `Encoded bech32 Address => ${encoded}`);
     return encoded;
   }
