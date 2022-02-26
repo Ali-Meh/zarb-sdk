@@ -52,6 +52,7 @@ describe('[keys]', () => {
     var bls = await loadBlsSign();
     // bls.G1Element.from_bytes(Buffer.from('93e02b6052719f607dacd3a088274f65596bd0d09920b61ab5da61bbdc7f5049334cf11213945d57e5ac7d055d042b7e024aa2b2f08f0a91260805272dc51051c6e47ad4fa403b02b4510b647ae3d1770bac0326a805bbefd48056c8c121bdb8', 'hex'))
     let sk = bls.PrivateKey.from_bytes(Buffer.from(privateKey, 'hex'), false)
+    // bls.AugSchemeMPL.
     // let sk = bls.AugSchemeMPL.key_gen(Uint8Array.from())
     let pk = sk.get_g1();
     let ppk = sk.get_g2();
