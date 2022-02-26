@@ -3,6 +3,9 @@ import Address from '../address/Address';
 import Key from '../key/Key';
 import SendPayload from './payloads/send';
 import Transaction, { payloadType } from './Transaction';
+import * as chainsafebls from "@chainsafe/bls";
+import chainsafeblsnative from "@chainsafe/bls/node";
+
 
 describe('[transaction]', () => {
   const tx = new Transaction(
@@ -87,6 +90,83 @@ describe('[transaction]', () => {
       'zc15x2a0lkt5nrrdqe0rkcv6r4pfkmdhrr39g6klh',
     );
     expect(sign.toString('hex')).toEqual(
+      'a2d06b33af2c9e7ca878da85a96b2c2346f4306d0473bdabc38be87c19dae5e67e08724a5220d0e372fb080bbd2fbde9',
+    );
+
+    done();
+  });
+
+  it('blsSignatures', async (done) => {
+    const blsSignatures = require('bls-signatures');
+    let bls = await blsSignatures();
+
+    const { PrivateKey } = bls;
+    const secretKey = PrivateKey.fromBytes(Buffer.from('68dcbf868133d3dbb4d12a0c2907c9b093dfefef6d3855acb6602ede60a5c6d0', 'hex'), false);
+    const publickey = secretKey.getPublicKey();
+    const sign = secretKey.sign(Buffer.from("zarb"));
+    const isValidSignature = sign.verify();
+
+    // const secretKey = await Key.New(''),
+    //   publickey = secretKey.GetPublicKey(),
+    //   address = secretKey.GetAddress(),
+    //   sign = secretKey.Sign("zarb");
+
+    expect(Buffer.from(secretKey.serialize()).toString('hex')).toEqual(
+      '68dcbf868133d3dbb4d12a0c2907c9b093dfefef6d3855acb6602ede60a5c6d0',
+    );
+    expect(Buffer.from(publickey.serialize()).toString('hex')).toEqual(
+      'af0f74917f5065af94727ae9541b0ddcfb5b828a9e016b02498f477ed37fb44d5d882495afb6fd4f9773e4ea9deee436030c4d61c6e3a1151585e1d838cae1444a438d089ce77e10c492a55f6908125c5be9b236a246e4082d08de564e111e65',
+    );
+    expect(Address.EncodeToBech32(Address.FromPublicKey(publickey.serialize))).toEqual(
+      'zc15x2a0lkt5nrrdqe0rkcv6r4pfkmdhrr39g6klh',
+    );
+    expect(Buffer.from(sign.serialize()).toString('hex')).toEqual(
+      'a2d06b33af2c9e7ca878da85a96b2c2346f4306d0473bdabc38be87c19dae5e67e08724a5220d0e372fb080bbd2fbde9',
+    );
+
+    done();
+  });
+  it('chainsafe/bls', async (done) => {
+    await chainsafebls.init("blst-native");
+    const secretKey = chainsafebls.SecretKey.fromHex('68dcbf868133d3dbb4d12a0c2907c9b093dfefef6d3855acb6602ede60a5c6d0'),
+      publickey = secretKey.toPublicKey(),
+      msg = Buffer.from("zarb"),
+      sign = secretKey.sign(msg),
+      isValidSignature = sign.verify(publickey, msg);
+
+    // expect(Buffer.from(secretKey.toHex()).toString('hex')).toEqual(
+    //   '68dcbf868133d3dbb4d12a0c2907c9b093dfefef6d3855acb6602ede60a5c6d0',
+    // );
+    expect(Buffer.from(publickey.toHex()).toString('hex')).toEqual(
+      'af0f74917f5065af94727ae9541b0ddcfb5b828a9e016b02498f477ed37fb44d5d882495afb6fd4f9773e4ea9deee436030c4d61c6e3a1151585e1d838cae1444a438d089ce77e10c492a55f6908125c5be9b236a246e4082d08de564e111e65',
+    );
+    expect(Address.EncodeToBech32(Address.FromPublicKey(Buffer.from(publickey.toBytes())))).toEqual(
+      'zc15x2a0lkt5nrrdqe0rkcv6r4pfkmdhrr39g6klh',
+    );
+    expect(Buffer.from(sign.toHex()).toString('hex')).toEqual(
+      'a2d06b33af2c9e7ca878da85a96b2c2346f4306d0473bdabc38be87c19dae5e67e08724a5220d0e372fb080bbd2fbde9',
+    );
+
+    done();
+  });
+  it('chainsafeblsnative', async (done) => {
+    await chainsafeblsnative.init();
+    const secretKey = chainsafeblsnative.SecretKey.fromHex('68dcbf868133d3dbb4d12a0c2907c9b093dfefef6d3855acb6602ede60a5c6d0'),
+      publickey = secretKey.toPublicKey(),
+      msg = Buffer.from("zarb"),
+      sign = secretKey.sign(msg),
+      isValidSignature = sign.verify(publickey, msg);
+
+    expect(Buffer.from(secretKey.toHex()).toString('hex')).toEqual(
+      '68dcbf868133d3dbb4d12a0c2907c9b093dfefef6d3855acb6602ede60a5c6d0',
+    );
+    expect(Buffer.from(publickey.toHex()).toString('hex')).toEqual(
+      'af0f74917f5065af94727ae9541b0ddcfb5b828a9e016b02498f477ed37fb44d5d882495afb6fd4f9773e4ea9deee436030c4d61c6e3a1151585e1d838cae1444a438d089ce77e10c492a55f6908125c5be9b236a246e4082d08de564e111e65',
+    );
+    expect(Address.EncodeToBech32(Address.FromPublicKey(Buffer.from(publickey.toBytes())))).toEqual(
+      'zc15x2a0lkt5nrrdqe0rkcv6r4pfkmdhrr39g6klh',
+    );
+    expect(Buffer.from(sign.toHex()).toString('hex')).toEqual(
       'a2d06b33af2c9e7ca878da85a96b2c2346f4306d0473bdabc38be87c19dae5e67e08724a5220d0e372fb080bbd2fbde9',
     );
 
